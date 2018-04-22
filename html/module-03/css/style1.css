@@ -1,0 +1,52 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.wrapper{
+    background-color: #fff
+}
+
+.header{
+    width: 1200px;
+    height: 191px;
+    margin: auto;
+    padding-top: 30px;
+}
+.list {
+    
+    text-align: center;
+}
+.list :hover{
+    color: aqua;
+}
+.text{
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 200;
+        
+}
+.list:last-child {
+    margin-right: 0;
+}
+.main{
+
+}
+.box{
+    width: 470px;
+    margin-top: 30px;
+
+}
+.z2{
+    width: 960px;
+    display: inline-block;
+}
+.box1{
+    width: 421px;
+    height: 281px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+
