@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #555252;
+}
+header {
+    height: auto;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 106px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    padding:5px;
+    background-color: #fff;
+
+}
+.logo{
+    font-family: "Roboto", sans-serif;
+     text-transform: uppercase;
+     font-size: 30px;
+     line-height: 32px;
+     margin-top: 36px;
+     margin-left: 30px;
+     float: left;
+}
+.logo a {
+    text-decoration: none;
+    color: #555252;
+}
+.logo::first-letter {
+     font-weight: 900;
+     color: #1abc9c;
+}
+.navigation{
+}
+.nav-item {
+     line-height: 11px;
+     list-style: none;
+     text-align: right;
+     margin-top: 43px;
+     margin-right: 30px;
+     float: right;
+}
+  
+.nav-item a {
+     text-decoration: none;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 800;
+     color: #0f0101;
+     text-transform: uppercase;
+     list-style: none;
+     font-size: 14px;
+     line-height: 11px;
+    
+}
+  
+.nav-item a:hover {
+     cursor: pointer;
+     color: #1abc9c;
+}
+/* SHOPS */
+.gallery-title{
+     font-family: "Roboto", sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 48px;
+     line-height: 32px;
+     margin-top: 164px;
+}
+.gallery-title::after{
+     display: block;
+     content: "";
+     height: 6px;
+     width: 164px;
+     background-color: #1abc9c;
+     margin: auto;
+     margin-top: 32px;
+     margin-bottom: 92px;
+}
+
+.product {
+    display: inline-block;
+    width: 255px;
+    margin:15px;
+    text-align: left;
+    list-style: none;
+    background-color: #e9f0fd;
+  }
+.product:nth-child(4n + 4){
+    margin-right: 0px;
+}
+.product:nth-child(4n + 1){
+  margin-left: 30px;
+} 
+.product:last-child {
+    margin-bottom: 105px;
+}
+.products{
+    text-align: center;
+}
+.product a,
+.price{
+     display: inline-block;
+     width: 201px;
+     height: 40px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-family: "Roboto", sans-serif;
+     font-weight: 900;
+     color: #fff;
+     font-size: 18px;
+     line-height: 40px;
+}
+.product a{
+    background-color: #323232;
+  }
+  
+.product a::before {
+    content: "";
+    margin-right: 14px;
+}
+.price {
+    width: 54px;
+    height: 40px;
+    background-color: #8c8c8c;
+    text-align: center;
+}
+.shop:hover a {
+    background-color: #1abc9c;
+}
+.product:hover {
+    max-width: 270px;
+    max-height: 322px;
+}
+.shop:hover .price {
+    background-color: #7fd9c7;
+  }
+.shop{
+      cursor: pointer;
+  }
+.price::before {
+    content: "\0024";
+}
+.title-blog {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    line-height: 32px;
+} 
+.title-blog::after {
+    display: block;
+    content: "";
+    height: 6px;
+    width: 164px;
+    background-color: #1abc9c;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 81px;
+}
+.box-blog{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.img-blog {
+    margin-bottom: 15px;
+}
+.blog-article{
+    display: inline-block;
+    width: 350px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.blog-span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+  
+.blog-span::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 136px;
+    background-color: #1abc9c;
+    margin-left: 1px;
+    margin-bottom: 30px;
+    margin-top: 11px;
+}
+.blog-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 19px;
+    text-align: left;
+}
+.blog-button{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 50px;
+    width: 160px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.button{
+    height: 51px;	
+    width: 159px;
+    background-color: #4EC6AB;
+    border: 0px;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 81px;
+    text-align: center;
+}
