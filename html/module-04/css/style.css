@@ -6,17 +6,20 @@
 body {
     color: #555252;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 header {
     height: auto;
     overflow: hidden;
     text-align: right;
-    margin-bottom: 106px;
+    margin-bottom: 32px;
     position:fixed;
     top:0px;
-    width:100%;
     padding:5px;
     background-color: #fff;
-
 }
 .logo{
     font-family: "Roboto", sans-serif;
@@ -36,6 +39,7 @@ header {
      color: #1abc9c;
 }
 .navigation{
+    float: right;
 }
 .nav-item {
      line-height: 11px;
@@ -43,9 +47,8 @@ header {
      text-align: right;
      margin-top: 43px;
      margin-right: 30px;
-     float: right;
-}
-  
+     float: left;
+} 
 .nav-item a {
      text-decoration: none;
      font-family: "Open Sans", sans-serif;
@@ -57,7 +60,6 @@ header {
      line-height: 11px;
     
 }
-  
 .nav-item a:hover {
      cursor: pointer;
      color: #1abc9c;
@@ -146,6 +148,7 @@ header {
 .price::before {
     content: "\0024";
 }
+/* BLOG */
 .title-blog {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
