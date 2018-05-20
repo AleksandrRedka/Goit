@@ -1,0 +1,70 @@
+*{
+
+    font-family: 'Playfair Display', serif;
+}
+.wrapper{
+    margin: auto;
+    width: 905px;
+}
+.header{
+    margin-top: 77px;
+    margin-bottom: 105px;
+}
+.main{
+    margin-bottom: 55px;
+}
+.nav{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.text{
+    display: inline-block;
+    list-style-type: none;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.link:hover{
+    color: aqua;
+ }
+.box{
+    display: inline-block;
+    width: 420px;
+    height: 470px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 130px;
+}
+.box:nth-child(2n+1){
+    margin-left: 0px;
+}
+.box:nth-child(2n){
+    margin-right: 0px;
+}
+.box:nth-last-child(-n+2){
+    margin-bottom: 0px;
+}
+.box-button{
+    text-align: center;
+    margin: auto;
+}
+.button{
+    width: 165px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.button-text{
+    text-align: center;
+    color: #626262;
+    font-size: 20px;
+    margin: 0px;
+}
