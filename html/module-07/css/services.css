@@ -1,0 +1,47 @@
+.caption{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.down-text{
+    text-align: center;
+    font-style: italic;
+    color: #777777;
+    font-size: 16px;
+    font-family: 'DroidSerif' serif;
+    margin-bottom: 77px;
+}
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+.box-item{
+    text-align: center;
+}
+.icon{
+    display: inline-flex;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 43px; 
+    border:3px solid #FED136;
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+}
+.big-text{
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #222222;
+
+}
+.small-text{
+    font-size: 14px;
+    color: #777777;
+    font-family:'RobotoSlab', sans-serif ;
+
+}

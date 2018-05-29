@@ -9,11 +9,13 @@
     display: flex;
     flex-basis: 33%;
     line-height: 40px;
+    font-family:'Montserrat',sans-serif;
 }
 .footer-text{
     display: inline-block;
 }
 .color-text{
+    padding-left: 5px;
     display: inline-block;
   	color: #f38181;
 }
@@ -42,4 +44,5 @@
     color: #fff;
     background-color: #95E1D3;
     border: 0px;
+    cursor: pointer;
  }

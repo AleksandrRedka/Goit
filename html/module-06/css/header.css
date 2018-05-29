@@ -21,6 +21,7 @@
     text-decoration: none;    
     font-weight: bold;
     line-height: 21px;
+    cursor: pointer;
 }
 .navigation{
     display: flex;

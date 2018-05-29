@@ -1,4 +1,4 @@
 @import "header.css";
-@import url(servises.css);
-@import url(team.css);
-@import url(footer.css)
+@import "servises.css";
+@import "team.css";
+@import "footer.css";

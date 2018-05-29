@@ -54,6 +54,7 @@
 .box-background:hover .background{
     display: block;
     list-style-type: none;
+    cursor: pointer;
 }
 .carts{
     width: 380px;
