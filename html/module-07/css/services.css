@@ -9,10 +9,10 @@
 }
 .down-text{
     text-align: center;
-    font-style: italic;
     color: #777777;
     font-size: 16px;
-    font-family: 'DroidSerif' serif;
+    font-family: 'Ropa Sans', serif;
+    font-style: italic;
     margin-bottom: 77px;
 }
 .services-list{
@@ -37,11 +37,10 @@
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
     color: #222222;
-
+    margin-bottom: 18px;
 }
 .small-text{
     font-size: 14px;
     color: #777777;
     font-family:'RobotoSlab', sans-serif ;
-
 }

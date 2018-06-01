@@ -11,10 +11,13 @@
     margin-bottom: 120px;
 }
 .logo{
-    font-family: 'Wisdom', sans-serif;
+    font-family: 'Allura', sans-serif;
     text-transform: uppercase;
+    font-size: 28px;
     line-height: 28px;
+    font-weight: bold;
     color: #FED136;
+    cursor: pointer;
 }
 .navigation{
     display: flex;
@@ -35,4 +38,5 @@
 }
 .site-item:hover{
     color:#FED136;
+    cursor: pointer;
 }
