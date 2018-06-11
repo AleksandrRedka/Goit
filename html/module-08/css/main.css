@@ -1,5 +1,142 @@
-.person-icon-one{
-    background-color: #FF4E50;
-    height: 2.5rem;
+@media (min-width: 20rem) {
+  .wrapper-white {
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    max-width: 20rem;
+  }
+  .white-title{
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    font-size: 1.275rem;
+    color: #333333;
+    font-weight:700;
+    margin-bottom: 0.875rem;
+  }
+  .person-box{
+    margin: auto;
+  }
+  .person{
+    margin: auto;
+    max-width: 13.586875rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.6875rem;
+  }
+  .img-item{
+    max-width: 7.625rem;
+    margin: auto;
+    position: relative;
+    margin-bottom: 1.25rem;
+  }
+  .picture{
+    position: relative;
+  }
+  .box-icon{
+    position: absolute;
     width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+    bottom: 0;
+    right: 0;
+    border: 0.25rem solid #fff;
+    border-radius: 50%;
+  }
+  .tele{
+    background-color: #FF4E50;
+  }
+  .chemist{
+    background-color: #FFA507;
+  }
+  .coffe{
+    background-color: #1CD7AD;
+  }
+  .letter{
+    background-color: #4E73DB;
+  }
+  .person-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .person-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    color: #666666;
+    font-weight: 300;
+  }
+  .button-main{
+    background: #fff;
+    border: 0.125rem solid #ff4e50;
+    border-radius: 2.5rem;
+    line-height: 2.25rem;
+    width: 87%;
+    margin: auto;
+    margin-bottom: 3.541875rem;
+    cursor: pointer;
+  }
+  .button-main:hover{
+    background: #ff4e50;
+    border: 0.125rem solid transparent;
+  }
+  .button-main-text{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ff4e50;
+    font-size: 0.875rem;
+    padding: 0.75rem 3.625rem 0.625rem;
+  }
+  .button-main-text:hover{
+    color: #ffffff;
+  }
+} 
+@media(min-width:48rem){
+  .wrapper-white{
+    max-width: 48rem;;
+  }
+  .white-title{
+    margin-bottom: 1.875rem;
+  }
+  .box-person{
+    width: 61.2%;
+    height: 31rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    font-size: 0;
+  }
+  .person{
+    margin: 0;
+    margin-bottom: 3.5rem;
+  }
+  .person:nth-child(even){
+    margin-bottom: 0;
+  }
+  .img-item{
+    margin-top: 0;
+  }
+  .button-main{
+    width: 26%;
+  }
+  .button-main-text{
+    padding: 0.875rem 1.8rem;
+  }
+}
+@media(min-width:90rem){
+  .wrapper-white{
+    max-width: 90rem;
+  }
+  .box-person{
+    height: 14.625rem;
+  }
+  .button-main{
+    width: 14%;
+  }
 }
