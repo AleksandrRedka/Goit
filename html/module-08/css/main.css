@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 @media (min-width: 20rem) {
   .wrapper-white {
     background-color: #ffffff;
@@ -89,7 +92,6 @@
     font-weight: 700;
     color: #ff4e50;
     font-size: 0.875rem;
-    padding: 0.75rem 3.625rem 0.625rem;
   }
   .button-main-text:hover{
     color: #ffffff;
@@ -125,9 +127,6 @@
   .button-main{
     width: 26%;
   }
-  .button-main-text{
-    padding: 0.875rem 1.8rem;
-  }
 }
 @media(min-width:90rem){
   .wrapper-white{
@@ -138,5 +137,7 @@
   }
   .button-main{
     width: 14%;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
   }
 }
