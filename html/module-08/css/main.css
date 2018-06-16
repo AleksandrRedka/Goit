@@ -1,5 +1,7 @@
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @media (min-width: 20rem) {
   .wrapper-white {
@@ -77,7 +79,6 @@
     border: 0.125rem solid #ff4e50;
     border-radius: 2.5rem;
     line-height: 2.25rem;
-    width: 87%;
     margin: auto;
     margin-bottom: 3.541875rem;
     cursor: pointer;
@@ -87,11 +88,13 @@
     border: 0.125rem solid transparent;
   }
   .button-main-text{
+    display: block;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ff4e50;
     font-size: 0.875rem;
+    padding: 0 4.6875rem;
   }
   .button-main-text:hover{
     color: #ffffff;
@@ -124,8 +127,8 @@
   .img-item{
     margin-top: 0;
   }
-  .button-main{
-    width: 26%;
+  .button-main-text{
+    padding: 0 1.875rem;
   }
 }
 @media(min-width:90rem){
@@ -134,10 +137,5 @@
   }
   .box-person{
     height: 14.625rem;
-  }
-  .button-main{
-    width: 14%;
-    padding-right: 1.75rem;
-    padding-left: 1.75rem;
   }
 }

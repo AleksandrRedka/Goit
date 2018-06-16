@@ -73,7 +73,6 @@
     margin: auto;
     margin-bottom: 3.541875rem;
     cursor: pointer;
-    padding: 0 4.375rem;
   }
   .button-main:hover{
     background: #ff4e50;
@@ -86,16 +85,21 @@
     font-weight: 700;
     color: #ff4e50;
     font-size: 0.875rem;
+    padding: 0 1.875rem;
   }
   .button-main-text:hover{
     color: #ffffff;
+    text-decoration: none;
   }
 } 
 @media(min-width:48rem){
   .white-title{
     margin-bottom: 1.875rem;
   }
-  .button-main{
-    padding: 0 1.5625rem;
+  .box-person{
+    height: 14.625rem;
   }
+}
+g{
+  justify-content: spa;
 }
