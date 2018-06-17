@@ -1,4 +1,9 @@
 @media (min-width: 20rem) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .wrapper-white {
     background-color: #ffffff;
     text-align: center;
@@ -85,7 +90,7 @@
     font-weight: 700;
     color: #ff4e50;
     font-size: 0.875rem;
-    padding: 0 1.875rem;
+    padding: 0 4.6875rem;
   }
   .button-main-text:hover{
     color: #ffffff;
@@ -99,7 +104,7 @@
   .box-person{
     height: 14.625rem;
   }
-}
-g{
-  justify-content: spa;
+  .button-main-text{
+    padding: 0 1.875rem;
+  }
 }
