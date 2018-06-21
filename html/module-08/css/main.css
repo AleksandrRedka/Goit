@@ -114,6 +114,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
     margin-bottom: 2.5rem;
     font-size: 0;
   }
@@ -131,11 +132,12 @@
     padding: 0 1.875rem;
   }
 }
-@media(min-width:90rem){
+@media(min-width:60rem){
   .wrapper-white{
-    max-width: 90rem;
+    max-width: 60rem;
   }
   .box-person{
+    width: auto;
     height: 14.625rem;
   }
 }

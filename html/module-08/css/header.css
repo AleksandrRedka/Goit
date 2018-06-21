@@ -10,7 +10,7 @@
   a {
     text-decoration: none;
   }
-  .container{
+  .container {
     margin: 0;
     padding: 0;
   }
@@ -62,11 +62,11 @@
     color: #ffffff;
     letter-spacing: 0.1rem;
   }
-  .logo:hover{
+  .logo:hover {
     text-decoration: none;
     color: #fff;
   }
-  .center-text{
+  .center-text {
     margin: auto;
     min-width: 20rem;
     display: flex;
@@ -86,16 +86,16 @@
     font-size: 1.125rem;
     font-weight: 300;
     color: #ffffff;
-    margin:0 3.1875rem 1.25rem;
+    margin: 0 3.1875rem 1.25rem;
   }
-  .button-center{
+  .button-center {
     border-radius: 2rem;
-    border: 0 ;
-    background-color: #FF4E50;
+    border: 0;
+    background-color: #ff4e50;
     margin-bottom: 8.75rem;
     cursor: pointer;
   }
-  .button-text{
+  .button-text {
     display: block;
     padding: 0.875rem 3.25rem;
     color: #ffffff;
@@ -104,9 +104,13 @@
     font-family: "Montserrat", sans-serif;
   }
 }
-@media(min-width:48rem){
-  .wrapper{
-    background-image:linear-gradient(rgba(26,25,21,0.2), rgba(26,25,21,0.2)), url(../img/Tablet.png);
+@media (min-width: 48rem) {
+  .wrapper {
+    background-image: linear-gradient(
+        rgba(26, 25, 21, 0.2),
+        rgba(26, 25, 21, 0.2)
+      ),
+      url(../img/Tablet.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -114,7 +118,7 @@
     height: 100%;
     margin: auto;
   }
-  .header{
+  .header {
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
@@ -124,41 +128,44 @@
     padding-right: 3.125rem;
     padding-left: 3.125rem;
   }
-  .header-list{
+  .header-list {
     margin-bottom: 0;
   }
-  .logo-text{
+  .logo-text {
     margin-bottom: 0;
   }
-  .center-text{
+  .center-text {
     max-width: 48rem;
   }
-  .big-text{
+  .big-text {
     width: 70%;
     margin-bottom: 2.5rem;
     font-size: 3.25rem;
   }
-  .small-text{
+  .small-text {
     width: 100%;
     font-size: 1.5rem;
     margin-bottom: 2.125rem;
   }
-  .button-center{
+  .button-center {
     margin-bottom: 14.625rem;
   }
 }
-@media(min-width:90rem){
-  .wrapper{
-    background-image:linear-gradient(rgba(26,25,21,0.2), rgba(26,25,21,0.2)), url(../img/background-cmp.png);
+@media (min-width: 60rem) {
+  .wrapper {
+    background-image: linear-gradient(
+        rgba(26, 25, 21, 0.2),
+        rgba(26, 25, 21, 0.2)
+      ),
+      url(../img/background-cmp.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
-    min-width: 90rem;
+    min-width: 60rem;
     margin: auto;
   }
-  .header{
+  .header {
     padding-right: 15.625rem;
     padding-left: 15.625rem;
   }
-
 }
