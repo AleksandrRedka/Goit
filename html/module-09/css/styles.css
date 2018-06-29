@@ -1,14 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
 @import "fonts.css";
 @import "bg-section.css";
 @import "services.css";

@@ -23,9 +23,9 @@
   .wrapper {
     background-image: url(../img/background-mobi.png);
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center;
     background-size: cover;
-    height: 100%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -112,10 +112,10 @@
       ),
       url(../img/Tablet.png);
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center;
     background-size: cover;
     min-width: 48rem;
-    height: 100%;
+    width: 100%;
     margin: auto;
   }
   .header {
@@ -159,7 +159,7 @@
       ),
       url(../img/background-cmp.png);
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center;
     background-size: cover;
     min-width: 60rem;
     margin: auto;
