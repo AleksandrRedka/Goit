@@ -1,0 +1,73 @@
+.caption--text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+.team__boxpicture{
+    width: 380px;
+    height: 470px;
+    margin-bottom: 27px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+.team__boxpicture:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px #95e1d3;
+}
+.team__picture{
+    position: relative;
+    z-index: 1;
+    transition: 0.2s;
+}
+.team__background{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9));
+    display: none;
+    transition: 0.3s;
+}
+.team__boxpicture:hover .team__background {
+    display: block;
+    cursor: pointer;
+}
+.team__list__carts{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team__cart{
+    width: 56px;
+    height: 56px;
+    background-color: #FCE38A;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    margin-right: 1px;
+}
+.team__cart:hover{
+    background-color: #95E1D3;
+}
+#facebook:hover{
+    fill: #ffffff;
+}
