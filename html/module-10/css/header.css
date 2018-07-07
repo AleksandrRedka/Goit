@@ -65,24 +65,14 @@ a {
   transition-timing-function: linear;
   color: #fce38a;
 }
-.shops {
+.nav__link--icon{
   fill: #fff;
 }
-.search {
-  fill: #fff;
-  padding-bottom: 4px;
-}
-.shops:hover {
+.nav__link--icon:hover{
   box-shadow: 0 3px 0 #fce38a;
   transition-duration: 200ms;
   transition-timing-function: linear;
-  color: #fce38a;
-}
-.search:hover {
-  box-shadow: 0 3px 0 #fce38a;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
-  color: #fce38a;
+  fill: #fce38a;
 }
 .container__caption{
     text-align: center;

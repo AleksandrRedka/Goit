@@ -6,9 +6,10 @@
     margin: auto;
     margin-bottom: 90px;
 }
-.team{
+.container__team{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5.125rem;
 }
 .team__boxpicture{
     width: 380px;
@@ -65,9 +66,25 @@
     justify-content: center;  
     margin-right: 1px;
 }
-.team__cart:hover{
-    background-color: #95E1D3;
+.team__person__info{
+    text-align: center;
 }
-#facebook:hover{
-    fill: #ffffff;
+.team__icon{
+    display: block;
+    fill:#f38181;
+}
+.team__cart:hover>a>.team__icon{
+    fill: #fff;
+}
+.team--name{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.team--domain{
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
 }
