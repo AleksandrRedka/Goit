@@ -10,10 +10,6 @@
   a {
     text-decoration: none;
   }
-  .container {
-    margin: 0;
-    padding: 0;
-  }
   .background {
     margin: auto;
     min-width: 20rem;
@@ -31,6 +27,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 4.1875rem;
+  }
+  .container{
+    max-width: 20rem;
+    margin: auto;
   }
   .header {
     margin: 2rem 1rem 0 1rem;
@@ -75,6 +75,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1.125rem;
   }
   .big-text {
     font-family: "Montserrat", sans-serif;
@@ -89,7 +90,10 @@
     font-size: 1.125rem;
     font-weight: 300;
     color: #ffffff;
-    margin: 0 3.1875rem 1.25rem;
+    margin: auto;
+  }
+  .header__button{
+    text-align: center;
   }
   .button-center {
     border-radius: 2rem;
@@ -106,6 +110,7 @@
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
   }
+
 }
 @media (min-width: 48rem) {
   .wrapper {
@@ -120,6 +125,9 @@
     width: 100%;
     margin: auto;
     margin-bottom: 4.5rem;
+  }
+  .container{
+    max-width: 48rem;
   }
   .header {
     display: flex;
@@ -139,6 +147,7 @@
   }
   .center-text {
     max-width: 48rem;
+    text-align: center;
   }
   .big-text {
     width: 70%;
@@ -168,5 +177,7 @@
     margin: auto;
     margin-bottom: 4.5rem;
   }
-
+  .container{
+    max-width: 60rem;
+  }
 }
