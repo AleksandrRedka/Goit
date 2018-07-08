@@ -2,15 +2,22 @@
     width: ;
 }
 .footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-top: 1px solid #E5E5E5;
     padding-top: 10px;
     margin-bottom: 12px;
 }
 .footer__text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-basis: 33%;
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
     line-height: 40px;
     font-family:'Montserrat',sans-serif;
 }
@@ -23,9 +30,14 @@
   	color: #f38181;
 }
 .footer__area{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-basis: 33%;
-    justify-content: flex-end;
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
  }
  .footer__area>form>input{
     font-family: 'Roboto', sans-serif;
