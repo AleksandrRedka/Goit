@@ -109,7 +109,7 @@
     display: block;
     fill:#f38181;
 }
-.team__cart:hover>a>.team__icon{
+.team__cart:hover .team__icon{
     fill: #fff;
 }
 .team--name{
