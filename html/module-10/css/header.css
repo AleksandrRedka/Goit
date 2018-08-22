@@ -88,17 +88,23 @@ a {
   color: #fff;
   text-decoration: none;
   line-height: 21px;
+  position: relative;
 }
-.nav__link:hover {
-  -webkit-box-shadow: 0 3px 0 #fce38a;
-          box-shadow: 0 3px 0 #fce38a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
-  -webkit-transition-timing-function: linear;
-       -o-transition-timing-function: linear;
-          transition-timing-function: linear;
-  color: #fce38a;
+.nav__link::after {
+  position: absolute;
+  content: "";
+  background: #fce38a;
+  bottom: -5px;
+  left: 50%;
+  right: 50%;
+  width: 0;
+  height: 2px;
+  transition: 0.2s;
+}
+.nav__link:hover::after{
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 .nav__link--icon{
   fill: #fff;
