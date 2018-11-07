@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    margin: auto;
+    height: 545px;
+    background-color: #232228;
+    padding: 0px 180px;
+    padding-top: 90px;
+    display: flex;
+}
+.footer__info{
+    display: block;
+    width: 300px;
+    margin-right: 165px;
+}
+.logo__box{
+    display: block;
+    width: 300px;
+   
+}
+.footer__company{
+    margin-right: 110px;
+}
+.footer__servises{
+    margin-right: 110px;
+}
+.footer__social{
+    display: flex;
+    justify-content: space-between;
+}
