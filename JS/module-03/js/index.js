@@ -2,7 +2,7 @@
 
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 
-const isLoginValid = function(login) {
+function isLoginValid (login){
   let loginLeng = login.length;
   return 4 <= loginLeng && loginLeng <= 16;
 };
