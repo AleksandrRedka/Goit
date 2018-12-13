@@ -49,21 +49,21 @@ let attempts = 3;
 do {
   let userPassword = prompt("Введите свой пароль");
   attempts -= 1;
-  if (userPassword === null) {
-    break;
-  }
-  {
+  if (userPassword !== null) {
     if (passwords.includes(userPassword)) {
       alert("Добро пожаловать!");
       break;
-    } else {
-      if (attempts <= 0) {
-        alert("У вас закончились попытки, аккаунт заблокирован!");
-        break;
-      }
-      alert(`"Неверный пароль, у вас осталось ${attempts} попыток"`);
     }
+
+    if (attempts <= 0) {
+      alert("У вас закончились попытки, аккаунт заблокирован!");
+      break;
+    }
+
+    alert(`"Неверный пароль, у вас осталось ${attempts} попыток"`);
+  } else {
+    break;
   }
-} while (userPassword === null);
+} while (userPassword !== null);
 
 console.log(userPassword);
