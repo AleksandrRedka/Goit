@@ -2,20 +2,17 @@
     clear: both;
 }
 .main .line div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     float: left;
     margin: 1px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 4px;
     background-color: #fff;
     transition: background-color .5s;
+    text-align: center;
 }
-.main .line div.s {
-    background-color: #bbb;
-    transition: background-color .5s;
+.red{
+    color: red;
 }
-.main .line div.f {
-    background-color: green;
-    transition: background-color 2s;
-}
+

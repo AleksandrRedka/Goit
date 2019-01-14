@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+    background-image: radial-gradient(
+        circle,
+        #1dedff,
+        #00c1ff,
+        #0091ff,
+        #005ced,
+        #1a00b9
+      );
+}
+.image-gallery {
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+.main-gallery-window {
+  height: 550px;
+  background-color: rgb(77, 0, 122);
+  padding: 5px;
+}
+.preview{
+  width: 14000;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+.preview-image{
+  width: 228px;
+}
+.preview-image:hover{
+  border: 2px solid #c50e73
+}
+.js-choose-image{
+  border: 2px solid #c50e73
+}

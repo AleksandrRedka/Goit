@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+.wrapper {
+  width: 1110px;
+  margin: auto;
   color: #555252;
 }
 .clearfix:after {
@@ -11,9 +13,7 @@ body {
   display: table;
   clear: both;
 }
-.header{
-  width: 1110px;
-  margin: auto;
+.header {
   line-height: 32px;
   margin-bottom: 105px;
   padding-top: 38px;
@@ -62,10 +62,6 @@ body {
   margin-right: 0px;
 }
 /* SHOPS */
-.gallery{
-    width: 1110px;
-    margin: auto;
-}
 .gallery-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -94,10 +90,10 @@ body {
   margin-bottom: 30px;
   font-size: 0px;
 }
-.product:nth-child(4n+4){
+.product:nth-child(4n + 4) {
   margin-right: 0px;
 }
-.product:nth-child(n+5){
+.product:nth-child(n + 5) {
   margin-bottom: 105px;
 }
 .products {
@@ -147,10 +143,6 @@ body {
   content: "\0024";
 }
 /* BLOG */
-.blog{
-    margin: auto;
-    width: 1110px;
-}
 .title-blog {
   font-family: "Roboto", sans-serif;
   font-weight: 900;

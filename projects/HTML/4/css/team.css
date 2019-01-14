@@ -1,0 +1,102 @@
+/* TEAM */
+.work{
+    padding-bottom: 83px;
+}
+.work-text{
+    margin: auto;
+    text-align: center;
+    width: 940px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 90px;
+    color: #999999;
+}
+.team{
+    width: 1200px;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
+.box-background{
+    width: 380px;
+    height: 470px;
+    margin-bottom: 27px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+.box-background:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px #95E1D3;
+}
+.picture{
+    width: 380px;
+    height:470px;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s;
+}
+.background{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9));
+    display: none;
+    transition: 0.3s;
+}
+.box-background:hover .background{
+    display: block;
+    list-style-type: none;
+    cursor: pointer;
+}
+.carts{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    width: 56px;
+    height: 56px;
+    background-color: #FCE38A;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    margin-right: 1px;
+}
+.cart:hover{
+    background-color: #95E1D3;
+}
+.name{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.domain{
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
+}
+.item:hover{
+    background-color: #95E1D3;;
+}
+.item-link{
+    color: #F38181;
+    font-size: 26px;
+    top: -50%; 
+}  
