@@ -40,22 +40,22 @@ ul {
     opacity: 1;
   }
   .first {
-    background-image: url(/img/mobile-bg/mobile-first-bg-img.png);
+    background-image: url(../img/mobile-bg/desktop-first-bg-img.png);
   }
   .second {
-    background-image: url(/img/mobile-bg/mobile-second-bg-img.png);
+    background-image: url(../img/mobile-bg/mobile-second-bg-img.png);
   }
   .third {
-    background-image: url(/img/mobile-bg/mobile-third-bd-img.png);
+    background-image: url(../img/mobile-bg/mobile-third-bd-img.png);
     background-position: bottom right;
   }
   .four {
     background-position: center bottom;
-    background-image: url(/img/mobile-bg/mobile-four-bg-img.png);
+    background-image: url(../img/mobile-bg/mobile-four-bg-img.png);
   }
   .accordion-body {
     position: relative;
-    background-image: url(/img/pexels-photo-262353.png);
+    background-image: url(../img/pexels-photo-262353.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,19 +208,19 @@ ul {
             transform: rotate(-90deg);
   }
   .first {
-    background-image: url(/img/mobile-bg/tablet-first-bg-img.png);
+    background-image: url(../img/mobile-bg/tablet-first-bg-img.png);
     background-position: left center;
   }
   .second {
-    background-image: url(/img/mobile-bg/tablet-second-bg-img.png);
+    background-image: url(../img/mobile-bg/tablet-second-bg-img.png);
   }
   .third {
-    background-image: url(/img/mobile-bg/tablet-third-bd-img.png);
+    background-image: url(../img/mobile-bg/tablet-third-bd-img.png);
     background-position: bottom right;
   }
   .four {
     background-position: center bottom;
-    background-image: url(/img/mobile-bg/tablet-four-bg-img.png);
+    background-image: url(../img/mobile-bg/tablet-four-bg-img.png);
   }
   .accordion-body {
     width: 440px;
