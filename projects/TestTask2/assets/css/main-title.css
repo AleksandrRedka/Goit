@@ -22,7 +22,7 @@
 }
 @media (min-width: 768px) {
   .main__box {
-    background-image: url(../img/header_bg_down.png),
+    background-image: url(../img/header/header_bg_down.png),
       url(../img/header/header_bg_main@2x.png),
       url(../img/header/header_bg.png);
     background-size: 80%, 105%, 25%;
