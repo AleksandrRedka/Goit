@@ -1,7 +1,7 @@
 @media (min-width: 375px) {
   .main__box {
-    background-image: url(./assets/img/header/header_bg_main@2x.png),
-      url(./assets/img/header/header_bg.png);
+    background-image: url(../img/header/header_bg_main@2x.png),
+      url(../img/header/header_bg.png);
     background-size: 200%, 50%;
     background-position: -25px -65px, -55px 20px;
     background-repeat: no-repeat;
@@ -22,9 +22,9 @@
 }
 @media (min-width: 768px) {
   .main__box {
-    background-image: url(./assets/img/header/header_bg_down.png),
-      url(./assets/img/header/header_bg_main@2x.png),
-      url(./assets/img/header/header_bg.png);
+    background-image: url(../img/header_bg_down.png),
+      url(../img/header/header_bg_main@2x.png),
+      url(../img/header/header_bg.png);
     background-size: 80%, 105%, 25%;
     background-position: 300px -300px, -14px -65px, -40px 25px;
     background-repeat: no-repeat;
