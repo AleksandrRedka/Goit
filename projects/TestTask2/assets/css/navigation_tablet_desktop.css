@@ -49,4 +49,8 @@
   }
 }
 @media (min-width: 1366px) {
+  .nav__tablet__logo {
+    font-size: 60px;
+
+  }
 }
