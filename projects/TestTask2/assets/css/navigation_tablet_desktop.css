@@ -1,0 +1,52 @@
+@media (min-width: 375px) {
+  .nav__tablet {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .nav__tablet {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 25px 80px;
+    z-index: 300;
+    width: 100%;
+    margin: 0px;
+
+  }
+  .nav__tablet__logo {
+    text-decoration: none;
+    font-family: "Bookman Old Style";
+    font-size: 22px;
+    color: #000000;
+  }
+  .nav__tablet__list{
+      display: flex;
+      justify-content: space-around;
+  }
+  .tablet__link__item {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Bookman Old Style Regular";
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+  }
+  .tablet__link__item::after{
+    position: absolute;
+    content: "";
+    background: #fdbd00;
+    bottom: -2px;
+    left: 0;
+    right: 50%;
+    width: 0%;
+    height: 2px;
+    transition: 0.4s;
+  }
+  .tablet__link__item:hover::after{
+    width: 100%;
+  }
+}
+@media (min-width: 1366px) {
+}
