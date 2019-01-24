@@ -101,72 +101,114 @@ const users = [
 /**
  * Получить массив имен (поле name) всех пользователей
  */
-const getAllNames = (arr) => arr.map(user=>user.name);
+// const getAllNames = (arr) => arr.map(user=>user.name);
 
-console.log(getAllNames(users)); 
-// [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
+// console.log(getAllNames(users)); 
+// // [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
 
                             
-/**
- * Получить массив объектов пользователей по цвету глаз (поле eyeColor)
- */
-const getUsersByEyeColor = (arr, color) => arr.filter(obj=>obj.eyeColor===color);
+// /**
+//  * Получить массив объектов пользователей по цвету глаз (поле eyeColor)
+//  */
+// const getUsersByEyeColor = (arr, color) => arr.filter(obj=>obj.eyeColor===color);
 
-console.log(getUsersByEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
+// console.log(getUsersByEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
 
                                             
-/**
- * Получить массив имен пользователей по полу (поле gender)
- */
-const getUsersByGender = (arr, gender) => arr
-        .filter(el=>el.gender===gender)
-        .map(el=>el.name)
-;
+// /**
+//  * Получить массив имен пользователей по полу (поле gender)
+//  */
+// const getUsersByGender = (arr, gender) => arr
+//         .filter(el=>el.gender===gender)
+//         .map(el=>el.name)
+// ;
 
-console.log(getUsersByGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+// console.log(getUsersByGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
 
 
-/**
- * Получить массив только неактивных пользователей (поле isActive)
- */
-const getInactiveUsers = arr => arr.filter(obj=>obj.isActive===false);
+// /**
+//  * Получить массив только неактивных пользователей (поле isActive)
+//  */
+// const getInactiveUsers = arr => arr.filter(obj=>obj.isActive===false);
 
-console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
+// console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
                       
                                  
-/**
- * Получить пользоваля (не массив) по email (поле email, он уникальный)
- */
-const getUserByEmail = (arr, email) => arr.find(el=>el.email===email);
+// /**
+//  * Получить пользоваля (не массив) по email (поле email, он уникальный)
+//  */
+// const getUserByEmail = (arr, email) => arr.find(el=>el.email===email);
 
-console.log(getUserByEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
-console.log(getUserByEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
+// console.log(getUserByEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
+// console.log(getUserByEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
 
 
-/**
- * Получить массив пользователей попадающих в возрастную категорию от min до max лет (поле age)
- */
-const getUsersWithAge = (arr, min, max) => arr.filter(el=>el.age>min && el.age<max);
+// /**
+//  * Получить массив пользователей попадающих в возрастную категорию от min до max лет (поле age)
+//  */
+// const getUsersWithAge = (arr, min, max) => arr.filter(el=>el.age>min && el.age<max);
 
-console.log(getUsersWithAge(users, 20, 30)); // [объект Ross Vazquez, объект Elma Head, объект Carey Barr]
+// console.log(getUsersWithAge(users, 20, 30)); // [объект Ross Vazquez, объект Elma Head, объект Carey Barr]
                                             
-console.log(getUsersWithAge(users, 30, 40)); 
-// [объект Moore Hensley, объект Sharlene Bush, объект Blackburn Dotson, объект Sheree Anthony]
+// console.log(getUsersWithAge(users, 30, 40)); 
+// // [объект Moore Hensley, объект Sharlene Bush, объект Blackburn Dotson, объект Sheree Anthony]
                                  
                                  
-/**
- * Получить общую сумму баланса (поле balance) всех пользователей
- */
-const getTotalBalance = arr => arr.reduce((acc,item)=>acc+=item.balance,0);
+// /**
+//  * Получить общую сумму баланса (поле balance) всех пользователей
+//  */
+// const getTotalBalance = arr => arr.reduce((acc,item)=>acc+=item.balance,0);
 
-console.log(getTotalBalance(users)); // 20916
+// console.log(getTotalBalance(users)); // 20916
                                 
                                 
-/**
- * Массив имен всех пользователей у которых есть друг с указанным именем
- */
-const getUsersByFriend = (arr, name) =>
-  arr.filter((obj)=>obj.friends.includes(name)).map(obj=>obj.name)
+// /**
+//  * Массив имен всех пользователей у которых есть друг с указанным именем
+//  */
+// const getUsersByFriend = (arr, name) =>
+//   arr.filter((obj)=>obj.friends.includes(name)).map(obj=>obj.name)
 
-console.log(getUsersByFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
-console.log(getUsersByFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
+// console.log(getUsersByFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
+// console.log(getUsersByFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
+
+
+
+// ==========================================================================================================
+
+
+// ⚠️ ЗАДАНИЕ ПОВЫШЕННОЙ СЛОЖНОСТИ - ВЫПОЛНЯТЬ ПО ЖЕЛАНИЮ
+                                         
+/**
+* Получить массив всех скиллов всех пользователей (поле skills), при этом не должно быть
+* повторяющихся скиллов и они должны быть отсортированы в алфавитном порядке
+*/
+const getAllSkills  = (arr)=>arr.reduce((acc,el)=>
+acc.concat(el.skills),[]).
+sort((a, b) => (a > b ? 1 : -1))
+.filter((el,ind,arr)=> arr[ind+1]!==el);
+
+// const result = getAllSkills.reduce((accum,elem)=>{
+//   console.log(accum.includes(elem))
+//   if(!accum.includes(`${elem}`)){
+//     accum.push(elem);
+//   }
+// },[]);
+
+console.log(getAllSkills(users));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+
+                             
+/**
+* Массив имен (поле name) людей, отсортированных в зависимости от количества их друзей (поле friends)
+*/
+// const getUserNamesSortedByFriendsCount = arr => arr.filter(users=> users.friends.length)
+// .sort((a,b)=>a.friends.length-b.friends.length)
+// .map(user=>user.name) ;
+
+
+
+
+// console.log(getUserNamesSortedByFriendsCount(users));
+
+// console.log(getUserNamesSortedByFriendsCount(users)); 
+// [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
