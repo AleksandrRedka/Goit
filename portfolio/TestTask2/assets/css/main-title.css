@@ -1,0 +1,51 @@
+@media (min-width: 375px) {
+  .main__title {
+    padding: 0px 35px;
+    margin-bottom:20px; 
+    background-image: url(../img/header/header_bg_main@2x.png),
+      url(../img/header/header_bg.png);
+    background-size: 230%, 60%;
+    background-position: -30px -65px, -55px 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+  }
+  .main__title__text {
+    width: 300px;
+    margin-top: 140px;
+    margin-bottom: 115px;
+    font-family: "Bookman Old Style Regular";
+    font-size: 22px;
+    color: #292929;
+    position: relative;
+    z-index: 200;
+  }
+}
+@media (min-width: 768px) {
+  .main__title {
+    background-image:url(../img/header/header_bg_main@2x.png),
+      url(../img/header/header_bg.png);
+      background-size: 140%, 30%;
+      background-position: -20px -101px, -64px 25px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+  }
+  .main__title__text {
+    width: 440px;
+    margin-top: 180px;
+    margin-bottom: 145px;
+    font-family: "Bookman Old Style Regular";
+    font-size: 32px;
+    position: relative;
+    z-index: 200;
+  }
+}
+@media (min-width: 1366px) {
+  .main__title__text {
+    width: auto;
+    margin-top: 280px;
+    margin-bottom: 200px;
+    font-size: 60px;
+  }
+}
