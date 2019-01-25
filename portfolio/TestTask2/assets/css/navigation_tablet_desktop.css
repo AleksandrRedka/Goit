@@ -9,14 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
-    padding-bottom: 225px;
-    overflow: hidden;
-    z-index: 300;
+    z-index: 2;
     width: 100%;
-    margin: 0px;
-    background-attachment: fixed;
-
+    margin: 0;
+    padding: 0px 80px;
+    margin-top: 25px;
   }
   .nav__tablet__logo {
     text-decoration: none;
@@ -25,8 +22,12 @@
     color: #000000;
   }
   .nav__tablet__list{
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+    position: relative;
+    z-index: 3;
   }
   .tablet__link__item {
     text-decoration: none;
@@ -36,6 +37,7 @@
     font-size: 16px;
     font-weight: 300;
     position: relative;
+    z-index: 2;
   }
   .tablet__link__item::after{
     position: absolute;
@@ -54,27 +56,54 @@
   }
   .nav__bg{
     position: absolute;
-    width: 700px;
-    top: -260px;
+    width: 168%;
+    min-width: 665px;
+    top: -975%;
+    right: -54%;
+    z-index: 1;
+    transition: 1s;
+  }
+  .nav__bg__scroll{    
+    top: -335px;
+    transform: rotate(-15deg)
+  }
+}
+@media(min-width: 820px){
+  .nav__bg{
+    top: -1050%;
+    max-width: 770px;
     right: -50%;
-    z-index: -100;
+  }
+  .nav__bg__scroll{
+    top: -367px;
+    transform: rotate(-15deg)
   }
 }
 @media (min-width: 1366px) {
-  .nav__tablet {
-    padding: 30px 130px;
-    padding-bottom: 320px;
+  .nav__tablet{
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 30px;
+  display: flex;
+  height: 70px;
+  align-items: center;
   }
-  justify-content: 
   .nav__bg{
-    width: 1289px;
-    top: -520px;
-    right: -34%;
+    position: absolute;
+    width: 105vh;
+    top: -425%;
+    right: -38%;
+    z-index: 1;
+    pointer-events: none;
   }
   .nav__tablet__logo {
     font-size: 60px;
   }
+  .nav__tablet__list{
+    height: 80px;
+  }
   .tablet__link__item {
     font-size: 24px;
   }
+  
 }

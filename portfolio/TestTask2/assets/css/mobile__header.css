@@ -2,11 +2,9 @@
 .mobil__nav {
   display: block;
   width: 100%;
-  padding-bottom: 70px;
   background-position:  250px -75px; 
   position: fixed;
-  overflow: hidden;
-  z-index: 50;
+  z-index: 2;
 }
 .mobil__nav__bg{
   width: 450px;
@@ -29,7 +27,7 @@
   padding-bottom:50px; 
 }
 .mobil__nav__button{
-  z-index: 100;
+  z-index: 2;
 }
 
 /* close menu */
@@ -95,7 +93,7 @@
   height: 30px;
   right: 15px;
   margin-right: 34px;
-  z-index: 200;
+  z-index: 3;
 }
 .mobil__nav__logo{
   text-decoration: none;

@@ -42,7 +42,7 @@
     padding-bottom: 85px;
   }
   .slider {
-    background-image: url(/projects/HTML/3/img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
@@ -321,4 +321,5 @@
     font-size: 24px;
   }
   /* Shops */
+  
 }
