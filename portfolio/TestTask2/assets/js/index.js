@@ -23,7 +23,6 @@ $(".mobil__nav__tach").click(function(){
 
 $(document).on("scroll", function(){
     let lengthScroll = $(document).scrollTop();
-    console.log(lengthScroll)
     if (lengthScroll>200){
         $(".nav__bg").addClass("nav__bg__scroll")
     }else{
