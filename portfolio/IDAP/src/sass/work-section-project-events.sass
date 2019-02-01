@@ -1,0 +1,56 @@
+$grey: #d3d7da
+$color-active: #ff503f
+
+.work__section__project__events
+    width: 30%
+    height: 77.5%
+    margin: 20px
+    margin-left: 0px
+    border: 1px solid $grey
+    display: flex
+    flex-direction: column
+    &__list
+        position: relative
+        display: flex
+        flex-direction: column
+        overflow: scroll
+        height: 72.5vh
+        &__user
+            padding: 20px 20px
+            border-bottom: 1px solid $grey
+            display: flex
+            align-items: center
+            &__foto
+                position: relative
+                margin-right: 5px
+                &__img
+                    width: 30px
+                    height: 30px
+                    border-radius: 50%
+                &::before
+                    position: absolute
+                    content: ""
+                    width: 10px
+                    height: 10px
+                    border-radius: 50%
+                    border: 1px solid #ffffff
+                    background-color: #aacc4e
+                    top: 0%
+                    left: -10%
+            &__text
+                display: flex
+                flex-direction: column
+                &__event
+                    font-size: 12px
+                    font-family: 'ProximaNova',sans-serif
+                    color: #aeaeae
+                    &>span
+                        font-size: 12px
+                        font-weight: bold
+                        color: #000000
+                &__time
+                    text-transform: uppercase
+                    color: #bababa
+                    font-size: 12px
+                    font-family: 'ProximaNova',sans-serif
+

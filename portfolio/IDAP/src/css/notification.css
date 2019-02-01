@@ -1,0 +1,40 @@
+.notification {
+  position: absolute;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  background-color: #adadad;
+  border: 0px;
+  border-radius: 50%;
+  top: -45%;
+  left: 55%;
+  -webkit-transition: 1s;
+  transition: 1s; }
+  .notification > p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-item-align: center;
+    align-self: center; }
+  .notification__user__img {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #ff503f;
+    border: 0px;
+    border-radius: 50%;
+    top: 0%;
+    left: 65%; }
+  .notification__section__nav {
+    top: 10%;
+    left: 80%;
+    background-color: #ff503f; }
+
+.tab__active__icon {
+  background-color: #adadad; }

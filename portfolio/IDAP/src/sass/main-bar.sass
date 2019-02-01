@@ -1,0 +1,118 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  
+ul
+  list-style-type: none
+
+a
+  text-decoration: none
+
+$redcolor: #ff503f
+$minwidth: 1024px
+$minheight: 600px
+$color-icon-bar: #505255
+$color-active: #ff503f
+$proxima: 'ProximaNova',sans-serif
+
+.container
+  display: flex
+  min-width: $minwidth
+  min-height: $minheight
+
+.main__bar
+  background-color: #252c32
+  width: 10%
+  height: 100vh;
+
+  &__list
+    display: flex
+    flex-direction: column
+    text-align: center
+    position: relative
+    min-height: 600px
+    padding: 30px 5px 
+    padding-bottom: 0px
+    height: 100%
+    
+    &__item
+      width: 100%
+      
+      &>div
+        margin-bottom: 15px
+        position: relative
+
+
+      &__img
+        position: relative
+        width: 80%
+        border-radius: 50%
+
+      &__icon:hover
+        border-left: 4px solid $color-active
+
+      &__icon
+        position: relative
+
+        &__link
+          display: block
+          font-size: 16px
+          color: $color-icon-bar
+          transition: 1s
+
+        &__title
+          font-family: $proxima
+          color: #505255
+          font-size: 16px
+          transition: 1s
+
+          &__text
+            display: block
+            font-family: $proxima
+
+        &:hover &__link
+          color: $color-active
+
+        &:hover &__title
+          color: #ffffff
+        &:hover .notification
+          background-color: $color-active
+
+.log__out
+  color: $color-active
+
+.down-item
+  position: absolute
+  bottom: 0%
+  left: 50%
+  transform: translate(-50%, 0%)
+
+.notification
+  position: absolute
+  color: #ffffff
+  text-align: center
+  width: 30px
+  height: 30px
+  padding: 5px
+  background-color: #adadad
+  border: 0px
+  border-radius: 50%
+  top: -45%
+  left: 55%
+  text-align: center
+  vertical-align: middle
+  transition: 1s
+
+  &__img
+    position: absolute
+    color: #ffffff
+    text-align: center
+    width: 30px
+    height: 30px
+    padding: 5px
+    background-color: $color-active 
+    border: 0px
+    border-radius: 50%
+    top: 10%
+    left: 70% 

@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>IDAP</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left main bar -->
+      <div class="main__bar">
+        <ul class="main__bar__list">
+          <li class="main__bar__list__item">
+            <div>
+              <img
+                class="main__bar__list__item__img"
+                src="img/1.jpg"
+                alt="foto__user"
+              />
+              <div class="notification notification__user__img"><p>2</p></div>
+            </div>
+          </li>
+          <li class="main__bar__list__item">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-ellipsis-h"></i
+              ></a>
+            </div>
+          </li>
+
+          <li class="main__bar__list__item">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-chalkboard-teacher"></i
+              ></a>
+              <a class="main__bar__list__item__icon__title" href="#">Board</a>
+            </div>
+          </li>
+          <li class="main__bar__list__item ">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-ellipsis-h"></i
+              ></a>
+            </div>
+          </li>
+          <li class="main__bar__list__item">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-tasks"></i
+              ></a>
+              <a class="main__bar__list__item__icon__title" href="#"
+                >Projects</a
+              >
+              <div class="notification"><p>9</p></div>
+            </div>
+          </li>
+          <li class="main__bar__list__item ">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-ellipsis-h"></i
+              ></a>
+            </div>
+          </li>
+          <li class="main__bar__list__item">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-cogs"></i
+              ></a>
+              <a class="main__bar__list__item__icon__title" href="#">Setting</a>
+            </div>
+          </li>
+          <li class="main__bar__list__item down-item">
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-angle-double-up"></i
+              ></a>
+              <a class="main__bar__list__item__icon__title" href="#">Upgrade</a>
+              <div class="notification">3</div>
+            </div>
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link" href="#"
+                ><i class="fas fa-ellipsis-h"></i
+              ></a>
+            </div>
+            <div class="main__bar__list__item__icon">
+              <a class="main__bar__list__item__icon__link log__out" href="#"
+                ><i class="fas fa-sign-out-alt"></i
+              ></a>
+              <a class="main__bar__list__item__icon__title " href="#">LogOut</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="work__section">
+        <!-- start work__section__top -->
+        <div class="work__section__top">
+          <div>
+            <button class="work__section__top__update">
+              <i class="fas fa-undo"></i>
+            </button>
+            <button class="work__section__top__dashboard">Dashboard</button>
+          </div>
+          <div>
+            <button class="work__section__top__more">
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <button class="work__section__top__online">
+              <div class="work__section__top__online__icon__chat">
+                <i class="far fa-comments"></i>
+              </div>
+              <p class="work__section__top__online__text">USER ONLINE</p>
+              <div class="work__section__top__online__icon__more">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <!-- work__section__top end -->
+        <!-- start work__section nav -->
+        <div class="work__section__nav">
+          <div class="work__section__nav__tab  tab__active">
+            <div class="work__section__nav__tab__icon">
+              <i class="far fa-clock"></i>
+            </div>
+            <p class="work__section__nav__tab__text">Active Projects</p>
+            <div
+              class="notification notification__section__nav tab__active__icon"
+            >
+              <p>9</p>
+            </div>
+          </div>
+          <div class="work__section__nav__tab">
+            <div class="work__section__nav__tab__icon">
+              <i class="fab fa-telegram-plane"></i>
+            </div>
+            <p class="work__section__nav__tab__text">Messenger</p>
+            <div class="notification notification__section__nav"><p>2</p></div>
+          </div>
+          <div class="work__section__nav__search">
+            <p class="work__section__nav__search__text">
+              Search Progect,User,Task,ect...
+            </p>
+          </div>
+        </div>
+        <!-- end work__section nav -->
+        <div class="work__section__project--box">
+          <div class="work__section__project">
+            <div class="work__section__project__search">
+              <input
+                class="work__section__project__search__form"
+                type="text"
+                placeholder="Search Progect,Task,User...."
+                maxlength="50"
+              />
+              <div class="work__section__project__search__buttons">
+                <button
+                  class="work__section__project__search__buttons__new__project"
+                >
+                  <p
+                    class="work__section__project__search__buttons__new__project__text"
+                  >
+                    New Projects <span>(descending)</span>
+                  </p>
+                  <div
+                    class="work__section__project__search__buttons__new__project__more"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                </button>
+                <button class="work__section__project__search__buttons__plus">
+                  <p>+</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="work__section__everything__projects">
+              <ul class="work__section__everything__projects__list">
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="work__section__everything__projects__list__task">
+                  <div>
+                    <div class="task__percent__done"><p>25%</p></div>
+                    <p class="task__title">Create contact fomular</p>
+                  </div>
+
+                  <div class="task__button">
+                    <button class="task__button__company">
+                      <p class="task__button__company__title">WORLDA</p>
+                    </button>
+                    <button class="task__button__search">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button class="task__button__more">
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <div class="link__archiv">
+                <p class="link__archiv__text">Project Archiv</p>
+                <div class="link__archiv__icon">
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__section__project__events">
+            <ul class="work__section__project__events__list">
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+              <li class="work__section__project__events__list__user">
+                <div class="work__section__project__events__list__user__foto">
+                  <img
+                    class="work__section__project__events__list__user__foto__img"
+                    src="img/2.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="work__section__project__events__list__user__text">
+                  <p
+                    class="work__section__project__events__list__user__text__event"
+                  >
+                    <span>Mark P.</span> add an Image into Worlda
+                  </p>
+                  <p
+                    class="work__section__project__events__list__user__text__time"
+                  >
+                    today, 10.30 pm
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="link__archiv">
+              <p class="link__archiv__text">Project Archiv</p>
+              <div class="link__archiv__icon">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end work__section -->
+
+      <!-- End container -->
+    </div>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="js/libs.min.js"></script>
+    <!-- Main.js -->
+    <script src="js/command.js"></script>
+  </body>
+</html>

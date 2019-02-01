@@ -1,0 +1,71 @@
+.work__section__project__events {
+  width: 30%;
+  height: 77.5%;
+  margin: 20px;
+  margin-left: 0px;
+  border: 1px solid #d3d7da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .work__section__project__events__list {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: scroll;
+    height: 72.5vh; }
+    .work__section__project__events__list__user {
+      padding: 20px 20px;
+      border-bottom: 1px solid #d3d7da;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .work__section__project__events__list__user__foto {
+        position: relative;
+        margin-right: 5px; }
+        .work__section__project__events__list__user__foto__img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%; }
+        .work__section__project__events__list__user__foto::before {
+          position: absolute;
+          content: "";
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          border: 1px solid #ffffff;
+          background-color: #aacc4e;
+          top: 0%;
+          left: -10%; }
+      .work__section__project__events__list__user__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .work__section__project__events__list__user__text__event {
+          font-size: 12px;
+          font-family: 'ProximaNova',sans-serif;
+          color: #aeaeae; }
+          .work__section__project__events__list__user__text__event > span {
+            font-size: 12px;
+            font-weight: bold;
+            color: #000000; }
+        .work__section__project__events__list__user__text__time {
+          text-transform: uppercase;
+          color: #bababa;
+          font-size: 12px;
+          font-family: 'ProximaNova',sans-serif; }

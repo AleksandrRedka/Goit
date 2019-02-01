@@ -1,0 +1,164 @@
+$grey: #d3d7da
+$color-active: #ff503f
+
+.work__section__project--box
+    display: flex
+
+.work__section__project
+    width: 65%
+    height: 77.5%
+    margin: 20px
+    border: 1px solid $grey
+    display: flex
+    flex-direction: column
+
+    &__search
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border-bottom: 1px solid $grey
+        padding: 10px 20px
+
+        &__form
+                width: 70%
+                outline: none
+                font-size: 16px
+                font-family: 'ProximaNova',sans-serif
+                color: #c1c1c1
+                font-weight: lighter
+                border: 0px
+
+        &__buttons
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 35%
+
+            &__new__project
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding: 5px 10px
+                border-bottom: 1px solid $grey
+                border-radius: 20px
+                background-color: #ffffff
+                outline: none
+
+                &:hover
+                    background-color: $color-active
+
+
+                &__text
+                    font-size: 8px
+                    margin-right: 10px
+                    font-weight: bold
+                    &>span
+                        font-weight: lighter
+                
+                &:hover &__text
+                    color: #ffffff
+
+                &__more
+                    color: #a6a6a6
+                
+                &:hover &__more
+                    color: #ffffff
+
+            &__plus
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 20px
+                height: 20px
+                background-color: $color-active
+                border-radius: 50%
+                outline: none
+                &:hover
+                    background-color: #ffffff
+                &:hover>p
+                    color: $color-active
+                &>p
+                    font-size: 12px
+                    color: #ffffff
+                    font-weight: bold
+
+
+.work__section__everything__projects
+    &__list
+        position: relative
+        display: flex
+        flex-direction: column
+        overflow-y: scroll
+        height: 65vh
+        &__task
+            display: flex
+            justify-content: space-between
+            width: 100%
+            padding: 20px
+            border-bottom: 1px solid $grey
+            &>div
+                display: flex
+                justify-content: space-between
+                align-items: center
+
+.task__percent__done
+    width: 40px
+    height: 25px
+    background-color: $color-active
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 10px
+    &>p
+        font-size: 16px
+        font-family: 'ProximaNova',sans-serif
+        color: #ffffff
+.task__title
+    font-size: 18px
+    font-family: 'ProximaNova',sans-serif
+
+.task__button
+    width: 15%
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &__company
+        outline: none
+        padding: 5px
+        border: 1px solid $grey
+        border-radius: 20px
+        background-color: #ffffff
+        &__title
+            display: block
+            font-family: 'ProximaNova',sans-serif
+            &:hover
+                color: #ffffff
+        &:hover
+            background-color: $color-active
+    &__search, &__more
+        outline: none
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 5px
+        background-color: #fff
+        border: 1px solid $grey
+        border-radius: 50%
+        font-family: 'ProximaNova',sans-serif
+        color: $grey
+        &:hover
+            background-color: $color-active
+
+.link__archiv
+    display: flex 
+    align-items: center
+    padding: 10px 10px 5px
+    border-top: 1px solid $grey
+    &__text
+        font-family: 'ProximaNova',sans-serif
+        font-size: 12px
+        margin-right: 5px
+        
+    &__icon
+        font-family: 'ProximaNova',sans-serif
+        font-size: 12px

@@ -1,0 +1,215 @@
+.work__section__project--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.work__section__project {
+  width: 65%;
+  height: 77.5%;
+  margin: 20px;
+  border: 1px solid #d3d7da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .work__section__project__search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #d3d7da;
+    padding: 10px 20px; }
+    .work__section__project__search__form {
+      width: 70%;
+      outline: none;
+      font-size: 16px;
+      font-family: 'ProximaNova',sans-serif;
+      color: #c1c1c1;
+      font-weight: lighter;
+      border: 0px; }
+    .work__section__project__search__buttons {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 35%; }
+      .work__section__project__search__buttons__new__project {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 5px 10px;
+        border-bottom: 1px solid #d3d7da;
+        border-radius: 20px;
+        background-color: #ffffff;
+        outline: none; }
+        .work__section__project__search__buttons__new__project:hover {
+          background-color: #ff503f; }
+        .work__section__project__search__buttons__new__project__text {
+          font-size: 8px;
+          margin-right: 10px;
+          font-weight: bold; }
+          .work__section__project__search__buttons__new__project__text > span {
+            font-weight: lighter; }
+        .work__section__project__search__buttons__new__project:hover .work__section__project__search__buttons__new__project__text {
+          color: #ffffff; }
+        .work__section__project__search__buttons__new__project__more {
+          color: #a6a6a6; }
+        .work__section__project__search__buttons__new__project:hover .work__section__project__search__buttons__new__project__more {
+          color: #ffffff; }
+      .work__section__project__search__buttons__plus {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        background-color: #ff503f;
+        border-radius: 50%;
+        outline: none; }
+        .work__section__project__search__buttons__plus:hover {
+          background-color: #ffffff; }
+        .work__section__project__search__buttons__plus:hover > p {
+          color: #ff503f; }
+        .work__section__project__search__buttons__plus > p {
+          font-size: 12px;
+          color: #ffffff;
+          font-weight: bold; }
+
+.work__section__everything__projects__list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 65vh; }
+  .work__section__everything__projects__list__task {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #d3d7da; }
+    .work__section__everything__projects__list__task > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+
+.task__percent__done {
+  width: 40px;
+  height: 25px;
+  background-color: #ff503f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 10px; }
+  .task__percent__done > p {
+    font-size: 16px;
+    font-family: 'ProximaNova',sans-serif;
+    color: #ffffff; }
+
+.task__title {
+  font-size: 18px;
+  font-family: 'ProximaNova',sans-serif; }
+
+.task__button {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .task__button__company {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #d3d7da;
+    border-radius: 20px;
+    background-color: #ffffff; }
+    .task__button__company__title {
+      display: block;
+      font-family: 'ProximaNova',sans-serif; }
+      .task__button__company__title:hover {
+        color: #ffffff; }
+    .task__button__company:hover {
+      background-color: #ff503f; }
+  .task__button__search, .task__button__more {
+    outline: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #d3d7da;
+    border-radius: 50%;
+    font-family: 'ProximaNova',sans-serif;
+    color: #d3d7da; }
+    .task__button__search:hover, .task__button__more:hover {
+      background-color: #ff503f; }
+
+.link__archiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 10px 5px;
+  border-top: 1px solid #d3d7da; }
+  .link__archiv__text {
+    font-family: 'ProximaNova',sans-serif;
+    font-size: 12px;
+    margin-right: 5px; }
+  .link__archiv__icon {
+    font-family: 'ProximaNova',sans-serif;
+    font-size: 12px; }
