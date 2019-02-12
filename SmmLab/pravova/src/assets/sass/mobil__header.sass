@@ -1,0 +1,129 @@
+@import variables
+
+@media (min-width: 320px)
+    .mobil__nav
+        display: block
+        width: 100%
+        background-position: 250px -75px
+        position: fixed
+        z-index: 5
+        &__bg
+            width: 450px
+            position: absolute
+            top: -140px
+            right: -340px
+            pointer-events: none
+            &__white
+                background-color: #fff
+        &__header__box
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+            padding: 25px 37px
+        &__button
+            z-index: 2
+            /* close menu */
+        &__close
+            content: ""
+            width: 20px
+            height: 0px
+            background-color: #fff
+            position: relative
+            margin-top: 10px
+            margin-right: 15px
+            &::before
+                content: ""
+                width: 20px
+                height: 2px
+                background-color: #fff
+                position: absolute
+                transform: rotate(-45deg)
+            &::after
+                content: ""
+                width: 20px
+                height: 2px
+                background-color: #fff
+                position: absolute
+                transform: rotate(45deg)
+                /* open menu */
+        &__list__close
+            width: 100%
+        &__open
+            content: ""
+            width: 20px
+            height: 2px
+            background-color: #fff
+            position: relative
+            margin-top: 10px
+            margin-right: 15px
+            &::before
+                content: ""
+                width: 20px
+                height: 2px
+                background-color: #fff
+                position: absolute
+                top: -5px
+            &::after
+                content: ""
+                width: 20px
+                height: 2px
+                background-color: #fff
+                position: absolute
+                top: 5px
+        &__tach
+            position: absolute
+            content: ""
+            width: 40px
+            height: 40px
+            right: 42px
+            top: 17px
+            z-index: 3
+        &__logo
+            font-family: "Bookman Old Style", sans-serif
+            font-size: 22px
+            color: $blackFc
+        &__list
+            position: relative
+            display: flex
+            height: 90%
+            flex-direction: column
+            padding: 0 10%
+            padding-top: 31%
+            z-index: 3
+            &__item
+                margin-bottom: 17%
+            &__link
+                color: $blackFc
+                text-align: left
+                font-family: "Bookman Old Style Regular", sans-serif
+                font-size: 24px
+                letter-spacing: 3px
+                &:last-child
+                    margin-bottom: 0px
+
+    .mobil__nav__social
+        display: flex
+        justify-content: space-between 
+        align-items: center
+        padding: 0px 10%
+        padding-bottom: 35px
+        &__email
+            font-family: $mainFf;
+            font-size: 14px;
+            color: $blackFc;
+    .mobil__menu
+        opacity: 0
+        width: 0
+        height: 0
+    .open
+        opacity: 1
+        background-color: #fff
+        width: 100%
+        height: 75vh
+        position: fixed
+        z-index: 3
+        transition: 0.5s
+
+@media (min-width: 768px)
+    .mobil__navigation
+        display: none

@@ -1,0 +1,30 @@
+/* fonts */
+@import"fonts.css";
+/* section form connect */
+@import'form__connect.css';
+/* navigation mobil */
+@import"mobil__header.css";
+/* navigation tablet */
+@import"nav__tab__desc.css";
+/* section main title style */
+@import"main__title.css";
+/* section slick */
+@import'slick.css';
+/*section servise style */
+@import'servises.css';
+/* full list servises */
+@import'full__serveces.css';
+/* section service */
+@import'tax__law.css';
+/* about us page */
+@import'about_us.css';
+/* blog */
+@import'blog.css';
+/* page article blog */
+@import'blog__article.css';
+/* contacts page */
+@import'contacts__page.css';
+/* section contact style */
+@import"contacts.css";
+ /* section footer */
+@import"footer.css";

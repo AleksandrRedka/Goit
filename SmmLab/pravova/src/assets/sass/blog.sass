@@ -1,0 +1,46 @@
+@import variables
+
+@media (min-width: 320px)
+    .blog
+        padding-top: 110px
+        margin-bottom: 80px
+        &__article
+            padding: 0px 37px
+            margin-bottom: 30px
+            &:last-child
+                margin-bottom: 60px
+            &__title
+                font-family: $mainSemFf
+                font-size: 18px
+                color: $blackFc
+                line-height: 22px
+                &:hover
+                    text-decoration: underline
+            &__text
+                margin-top: 10px
+                color: #707070
+                font-family: $mainFf
+                font-size: 16px
+                line-height: 18px
+
+@media (min-width: 768px)
+    .blog
+        &__article
+            padding: 0px 80px
+            margin-bottom: 40px
+            &__title
+                font-size: 24px
+                line-height: 30px
+            &__text
+                margin-top: 20px
+                line-height: 20px
+@media (min-width: 1366px)
+    .blog
+        padding-top: 180px
+        &__article
+            padding: 0px 200px
+            &__title
+                font-size: 28px
+            &__text
+                font-size: 20px
+

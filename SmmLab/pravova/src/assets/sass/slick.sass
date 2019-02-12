@@ -1,0 +1,49 @@
+@import variables
+
+@media(min-width: 320px)
+    .slick
+        background-color: $slickBg
+        box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.1)
+        border: 0 solid
+        border-radius: 20px
+        padding: 25px 36px
+        margin-top: 10px
+        margin-bottom: 30px
+        &__title
+            font-family: $mainFf;
+            font-size: 18px
+            font-weight: bold
+            margin-bottom: 20px
+            color: $blackFc
+        &__text
+            font-family: $mainFf;
+            font-size: 16px
+            margin-bottom: 10px
+            letter-spacing: 0.5px
+            color: $blackFc
+        &__readmore
+            font-family: $mainFf
+            font-size: 16px
+            color: $blueColor
+            letter-spacing: 0.5px
+            text-decoration: underline
+@media (min-width: 768px)
+    .slick
+        padding: 25px 78px
+        margin-left: 10%
+        margin-right: 10%
+        
+@media (min-width: 992px)
+    .slick
+        padding: 35px 95px
+    &__title
+        font-style: 32px
+        &__text
+            font-style: 18px
+@media (min-width: 1565px)   
+    .slick__readmore
+        display: none
+@media (min-width: 1890px)
+    .slick
+        padding: 50px 140px
+

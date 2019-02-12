@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 320px) {
+  .mobil__nav {
+    display: block;
+    width: 100%;
+    background-position: 250px -75px;
+    position: fixed;
+    z-index: 5; }
+    .mobil__nav__bg {
+      width: 450px;
+      position: absolute;
+      top: -140px;
+      right: -340px;
+      pointer-events: none; }
+      .mobil__nav__bg__white {
+        background-color: #fff; }
+    .mobil__nav__header__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      padding: 25px 37px; }
+    .mobil__nav__button {
+      z-index: 2;
+      /* close menu */ }
+    .mobil__nav__close {
+      content: "";
+      width: 20px;
+      height: 0px;
+      background-color: #fff;
+      position: relative;
+      margin-top: 10px;
+      margin-right: 15px; }
+      .mobil__nav__close::before {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg); }
+      .mobil__nav__close::after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        /* open menu */ }
+    .mobil__nav__list__close {
+      width: 100%; }
+    .mobil__nav__open {
+      content: "";
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+      position: relative;
+      margin-top: 10px;
+      margin-right: 15px; }
+      .mobil__nav__open::before {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: -5px; }
+      .mobil__nav__open::after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 5px; }
+    .mobil__nav__tach {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      right: 42px;
+      top: 17px;
+      z-index: 3; }
+    .mobil__nav__logo {
+      font-family: "Bookman Old Style", sans-serif;
+      font-size: 22px;
+      color: #292929; }
+    .mobil__nav__list {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 90%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 0 10%;
+      padding-top: 31%;
+      z-index: 3; }
+      .mobil__nav__list__item {
+        margin-bottom: 17%; }
+      .mobil__nav__list__link {
+        color: #292929;
+        text-align: left;
+        font-family: "Bookman Old Style Regular", sans-serif;
+        font-size: 24px;
+        letter-spacing: 3px; }
+        .mobil__nav__list__link:last-child {
+          margin-bottom: 0px; }
+  .mobil__nav__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 10%;
+    padding-bottom: 35px; }
+    .mobil__nav__social__email {
+      font-family: "ProximaNova Regular", sans-serif;
+      font-size: 14px;
+      color: #292929; }
+  .mobil__menu {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  .open {
+    opacity: 1;
+    background-color: #fff;
+    width: 100%;
+    height: 75vh;
+    position: fixed;
+    z-index: 3;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; } }
+
+@media (min-width: 768px) {
+  .mobil__navigation {
+    display: none; } }

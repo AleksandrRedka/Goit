@@ -1,0 +1,170 @@
+@import variables
+@media (min-width: 320px)
+    .about__us
+        &__title
+            padding-top: 100px
+        &__text
+            padding: 0px 37px
+            &>p
+                font-family: $mainFf
+                font-size: 16px
+                font-weight: lighter
+                letter-spacing: 0.5px
+                margin-bottom: 20px
+                line-height: 20px
+        &__readmore
+            font-family: $mainFf
+            font-size: 16px
+            color: $blueColor
+            letter-spacing: 0.5px
+            text-decoration: underline
+            padding: 0px 37px
+            margin-bottom: 80px
+        &__subtitle
+            font-family: $mainFf
+            font-size: 32px
+            font-weight: bold
+            line-height: 40px
+            color: $aboutUsFc
+            letter-spacing: 5px
+            margin-bottom: 30px
+            padding: 0px 37px
+    .title__company
+        font-family: $mainFf
+        font-size: 24px
+        font-weight: bold
+        color: $aboutUsFc   
+        height: 60px
+        margin-bottom: 20px
+
+    .our__teams
+        margin-bottom: 80px
+        &__pravova
+            padding: 0px 37px
+            margin: 0px -15px 
+        &__granat
+            margin: 0px -15px 
+            padding: 0px 37px
+        &__person
+            line-height: 22px
+            font-family: $mainSemFf
+            font-size: 18px
+            color: $blackFc
+            margin-bottom: 10px
+            &__position
+                line-height: 20px
+                font-family: $mainFf
+                font-size: 16px
+                color: $blackFc
+                margin-bottom: 30px
+        
+    .our__servises
+        &__list
+            display: flex
+            flex-direction: column
+            padding: 0px 37px
+            margin-bottom: 80px
+            &__item
+                position: relative
+                margin-bottom: 20px
+                &__link
+                    font-family: $miunBoldFf
+                    font-style: italic
+                    font-size: 24px
+                    color: $blackFc
+                    line-height: 30px
+                    position: relative
+                    &::after
+                        position: absolute
+                        content: ""
+                        background: $yellowColor
+                        bottom: -4px
+                        left: 0
+                        right: 50%
+                        width: 0
+                        height: 2px
+                        transition: 0.4s
+                    &:hover::after
+                        width: 100%
+                        left: 0
+                        right: 0
+
+@media (min-width: 768px)
+    .about__us
+        &__title
+            padding: 0px 80px
+            padding-top: 110px
+        &__text
+            padding: 0px 80px
+            &>
+                
+        &__readmore
+            padding: 0px 80px
+        &__subtitle
+            padding: 0px 
+    .our__teams
+        padding: 0px 80px
+        &__granat
+            padding: 0
+    .our__servises
+        padding: 0px 80px
+        &__list
+            height: 490px
+            flex-wrap: wrap
+            padding: 0
+            &__item
+                width: 42%
+                margin-bottom: 50px
+                &:nth-child(6n)
+                    margin: 0px
+                &__link
+                    height: 58px
+
+
+@media (min-width:1210px)
+    .about__us
+        &__text
+            margin-bottom: 80px
+        &__readmore
+            display: none
+
+@media (min-width: 1366px)
+    .about__us
+        
+        &__title
+            
+        &__text
+            &>p
+                padding: 0px 130px
+        &__readmore
+            padding: 0px 130px
+        &__subtitle
+            font-size: 52px
+        &__subtitle
+            font-family: $mainFf
+            font-size: 32px
+            font-weight: bold
+            line-height: 40px
+            color: $aboutUsFc
+            letter-spacing: 5px
+            margin-bottom: 30px
+
+    .our__teams
+        padding: 0px 130px
+        &__person
+            line-height: 28px
+            &__position
+                
+    .our__servises
+        padding: 0px 130px
+        &__list
+            height: 490px
+            flex-wrap: wrap
+            padding: 0
+            &__item
+                width: 42%
+                margin-bottom: 50px
+                &:nth-child(6n)
+                    margin: 0px
+                &__link
+                    font-size: 30px

@@ -1,0 +1,132 @@
+@import variables
+
+@media (min-width: 320px)
+    .section__services
+        background-color: #ffffff
+        display: flex
+        flex-direction: column
+    .section__title
+        font-family: $mainFf
+        font-size: 30px
+        font-weight: bold
+        color: $blueColor
+        margin-bottom: 30px 
+        padding-left: 37px
+        white-space: nowrap
+    .services__title__box
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        padding-right: 37px
+        margin-bottom: 30px
+        &__decor
+            width: 70px
+            height: 30px
+        &__text
+            margin: 0
+    .services__list
+        display: flex
+        flex-direction: column
+        background-color: #eeeeee
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16)
+        border-radius: 20px
+        padding: 20px 35px
+        margin-bottom: 60px
+        &__item
+            margin-bottom: 20px
+            &:last-child
+                margin-bottom: 0px
+            &>a
+                position: relative
+                font-family: $mainFf
+                font-size: 24px
+                font-style: italic
+                font-weight: bold
+                color: $blackFc 
+                &::after
+                    position: absolute
+                    content: ""
+                    background: $yellowColor
+                    bottom: -4px
+                    left: 0
+                    right: 50%
+                    width: 0
+                    height: 2px
+                    transition: 0.4s
+            &>a:hover::after
+                width: 100%
+                left: 0
+                right: 0
+
+@media (min-width: 768px)    
+    .section__services
+        width: 90%
+    .section__title
+        padding-left: 80px
+        font-size: 65px
+    .services__title__box
+        padding-right: 0px
+        padding-left: 0px
+        &__decor
+            width: 30%
+            height: auto
+        &__text
+            padding-left: 10px
+    .services__list
+        flex-wrap: wrap
+        margin-right: 0
+        padding-left: 80px
+        height: 490px
+        margin-bottom: 80px
+        &__item
+            width: 45%
+            margin-bottom: 50px
+            &:nth-child(6)
+                margin-bottom: 0px
+
+@media (min-width: 992px)
+        .section__title
+            font-size: 100px
+        .services__title__box
+            padding-right: 0px
+            padding-left: 0px
+            &__decor
+                width: 25%
+                height: auto
+            &__text
+                padding-left: 20px
+        .services__list
+            height: 600px
+            padding: 95px 0px 40px 130px
+            margin-bottom: 100px
+            &__item
+                width: 20%
+                height: 40px
+                margin-bottom: 100px
+                &>a
+                    font-size: 20px
+                &:nth-child(6)
+                    margin-bottom: 100px
+                &:nth-child(4n)
+                    margin-bottom: 0px
+
+@media (min-width: 1920px)
+    .section__services
+        width: 95%
+    .services__title__box
+        &__decor
+            width: 15%
+    .section__title
+        font-size: 150px
+    .services__list
+        height: 900px
+        padding: 143px 0px 0px 130px
+        margin-bottom: 150px
+        &__item
+            width: 24%
+            height: 80px
+            margin-bottom: 145px
+            &>a
+                font-size: 36px
+            &:nth-child(6)
+                margin-bottom: 145px

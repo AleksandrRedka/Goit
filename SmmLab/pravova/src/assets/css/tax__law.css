@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 320px) {
+  .back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 110px 0px 40px 37px; }
+    .back__icon {
+      width: 60px;
+      height: 16px;
+      margin-right: 15px; }
+    .back__title {
+      font-family: "ProximaNova Regular", sans-serif;
+      color: #2A284A;
+      font-size: 16px;
+      line-height: 20px; }
+      .back__title:hover {
+        text-decoration: underline; }
+  .service__info {
+    padding: 0px 37px;
+    color: #2A284A; }
+    .service__info__title {
+      font-family: "ProximaNova SemiBold", sans-serif;
+      font-size: 18px;
+      text-decoration: underline;
+      margin-bottom: 25px; }
+    .service__info__types {
+      padding-bottom: 60px; }
+      .service__info__types__list__item > a {
+        font-family: "ProximaNova Regular", sans-serif;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: lighter;
+        color: #2A284A;
+        line-height: 25px; }
+    .service__info__description > p {
+      color: #707070;
+      font-family: "ProximaNova Regular", sans-serif;
+      font-size: 20px;
+      line-height: 26px; } }
+
+@media (min-width: 768px) {
+  .service__back {
+    padding: 115px 0px 80px 80px; }
+    .service__back__title {
+      font-size: 30px;
+      line-height: 38px;
+      padding-bottom: 80px; }
+  .service__info {
+    padding: 0px 80px; }
+    .service__info__title {
+      font-size: 48px;
+      margin-bottom: 80px; }
+    .service__info__types {
+      padding-bottom: 80px; } }
+
+@media (min-width: 992px) {
+  .back {
+    padding: 180px 0px 30px 130px; }
+  .service__info__box__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  .service__info__types {
+    width: 50%;
+    padding-right: 30px; }
+  .service__info__description {
+    width: 50%; } }

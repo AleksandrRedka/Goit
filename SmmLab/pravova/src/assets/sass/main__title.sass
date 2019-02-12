@@ -1,0 +1,46 @@
+@import variables
+
+@media(min-width: 320px)
+    .main__slogan
+        background-color: #fff
+        &__title
+            height: 75vw
+            padding-left: 6vw
+            background-image:url(../img/header/header_bg_main@2x.png),url(../img/header/header_bg_main_left@2x.png) 
+            background-size: 180%, 55%
+            background-position: -2vh -4vh, -8vh 0vh
+            background-repeat: no-repeat
+            position: relative
+            z-index: 1
+            display: flex
+            justify-content: center
+            align-items: center
+            &__text
+                width: 85%
+                font-family: "Bookman Old Style Regular",sans-serif 
+                letter-spacing: 0.5px
+                font-size: 22px
+                color: $blackFc
+                position: relative
+                z-index: 3
+                text-align: center
+@media (min-width: 768px)
+    .main__slogan
+        &__title
+            height: 50vw
+            background-size: 105%, 25%
+            background-position: -10px -50px, -50px 25px
+            &__text
+                width: 60%
+                letter-spacing: 3px
+                font-size: 32px
+@media (min-width: 992px)
+    .main__slogan
+        &__text
+            width: 40%
+            font-size: 35px
+@media (min-width: 1336px)
+    .main__slogan
+        &__title
+            &__text
+                font-size: 60px

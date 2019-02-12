@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 320px) {
+  .article__box {
+    padding: 0px 37px;
+    margin-bottom: 80px; }
+    .article__box__title {
+      font-family: "ProximaNova SemiBold", sans-serif;
+      font-size: 18px;
+      line-height: 22px;
+      color: #292929;
+      margin-bottom: 10px; }
+    .article__box__date {
+      font-family: "ProximaNova Regular", sans-serif;
+      font-weight: lighter;
+      font-size: 16px;
+      line-height: 20px;
+      color: #292929;
+      margin-bottom: 30px; }
+    .article__box__text {
+      font-family: "ProximaNova Regular", sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      color: #707070; }
+    .article__box > img {
+      margin-top: 50px;
+      width: 100%; } }
+
+@media (min-width: 768px) {
+  .article__box {
+    padding: 0px 80px; }
+    .article__box__title {
+      font-size: 24px;
+      line-height: 30px; } }
+
+@media (min-width: 1366px) {
+  .article__box {
+    width: 85%;
+    padding: 0px 250px; }
+    .article__box__title {
+      font-size: 48px;
+      line-height: 58px; } }

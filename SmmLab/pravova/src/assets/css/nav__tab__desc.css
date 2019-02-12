@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 320px) {
+  .nav__tablet {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .nav__tablet {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    height: 26px;
+    padding: 0px 80px;
+    padding-top: 28px; }
+    .nav__tablet__logo {
+      font-family: "Bookman Old Style", sans-serif;
+      font-size: 22px;
+      color: #292929;
+      cursor: pointer;
+      position: relative;
+      z-index: 2; }
+  .tablet__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 26px;
+    position: relative;
+    z-index: 3; }
+    .tablet__list__link__item {
+      color: #ffffff;
+      text-align: left;
+      font-family: "Bookman Old Style Regular", sans-serif;
+      font-size: 16px;
+      font-weight: 100;
+      cursor: pointer;
+      position: relative; }
+      .tablet__list__link__item::after {
+        position: absolute;
+        content: "";
+        background-color: #fdbd00;
+        bottom: -2px;
+        z-index: 3;
+        left: 0;
+        right: 50%;
+        width: 0%;
+        height: 2px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .tablet__list__link__item:hover::after {
+        width: 100%; }
+  .nav__bg {
+    position: absolute;
+    width: 80%;
+    top: -28vw;
+    right: -11%;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+    pointer-events: none; }
+    .nav__bg__scroll {
+      top: -36vw;
+      -webkit-transform: rotate(-15deg);
+      transform: rotate(-15deg); } }
+
+@media (min-width: 992px) {
+  .nav__tablet {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 30px; }
+    .nav__tablet__logo {
+      height: 40px;
+      font-size: 35px; }
+  .tablet__list {
+    height: 40px; }
+    .tablet__list__item {
+      font-size: 16px; }
+  .nav__bg {
+    width: 60%;
+    top: -20vw;
+    right: -6%; }
+    .nav__bg__scroll {
+      top: -26vw;
+      -webkit-transform: rotate(-15deg);
+      transform: rotate(-15deg); } }

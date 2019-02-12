@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 320px) {
+  .section__services {
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .section__title {
+    font-family: "ProximaNova Regular", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #100C64;
+    margin-bottom: 30px;
+    padding-left: 37px;
+    white-space: nowrap; }
+  .services__title__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 37px;
+    margin-bottom: 30px; }
+    .services__title__box__decor {
+      width: 70px;
+      height: 30px; }
+    .services__title__box__text {
+      margin: 0; }
+  .services__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #eeeeee;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    padding: 20px 35px;
+    margin-bottom: 60px; }
+    .services__list__item {
+      margin-bottom: 20px; }
+      .services__list__item:last-child {
+        margin-bottom: 0px; }
+      .services__list__item > a {
+        position: relative;
+        font-family: "ProximaNova Regular", sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        color: #292929; }
+        .services__list__item > a::after {
+          position: absolute;
+          content: "";
+          background: #fdbd00;
+          bottom: -4px;
+          left: 0;
+          right: 50%;
+          width: 0;
+          height: 2px;
+          -webkit-transition: 0.4s;
+          transition: 0.4s; }
+      .services__list__item > a:hover::after {
+        width: 100%;
+        left: 0;
+        right: 0; } }
+
+@media (min-width: 768px) {
+  .section__services {
+    width: 90%; }
+  .section__title {
+    padding-left: 80px;
+    font-size: 65px; }
+  .services__title__box {
+    padding-right: 0px;
+    padding-left: 0px; }
+    .services__title__box__decor {
+      width: 30%;
+      height: auto; }
+    .services__title__box__text {
+      padding-left: 10px; }
+  .services__list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    padding-left: 80px;
+    height: 490px;
+    margin-bottom: 80px; }
+    .services__list__item {
+      width: 45%;
+      margin-bottom: 50px; }
+      .services__list__item:nth-child(6) {
+        margin-bottom: 0px; } }
+
+@media (min-width: 992px) {
+  .section__title {
+    font-size: 100px; }
+  .services__title__box {
+    padding-right: 0px;
+    padding-left: 0px; }
+    .services__title__box__decor {
+      width: 25%;
+      height: auto; }
+    .services__title__box__text {
+      padding-left: 20px; }
+  .services__list {
+    height: 600px;
+    padding: 95px 0px 40px 130px;
+    margin-bottom: 100px; }
+    .services__list__item {
+      width: 20%;
+      height: 40px;
+      margin-bottom: 100px; }
+      .services__list__item > a {
+        font-size: 20px; }
+      .services__list__item:nth-child(6) {
+        margin-bottom: 100px; }
+      .services__list__item:nth-child(4n) {
+        margin-bottom: 0px; } }
+
+@media (min-width: 1920px) {
+  .section__services {
+    width: 95%; }
+  .services__title__box__decor {
+    width: 15%; }
+  .section__title {
+    font-size: 150px; }
+  .services__list {
+    height: 900px;
+    padding: 143px 0px 0px 130px;
+    margin-bottom: 150px; }
+    .services__list__item {
+      width: 24%;
+      height: 80px;
+      margin-bottom: 145px; }
+      .services__list__item > a {
+        font-size: 36px; }
+      .services__list__item:nth-child(6) {
+        margin-bottom: 145px; } }
