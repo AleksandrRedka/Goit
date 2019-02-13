@@ -35,7 +35,9 @@ ul {
       -webkit-box-align: start;
       -ms-flex-align: start;
       align-items: flex-start;
-      padding: 25px 37px; }
+      padding: 25px 37px;
+      -webkit-transition: 1.5s;
+      transition: 1.5s; }
     .mobil__nav__button {
       z-index: 2;
       /* close menu */ }
@@ -151,7 +153,9 @@ ul {
     position: fixed;
     z-index: 3;
     -webkit-transition: 0.5s;
-    transition: 0.5s; } }
+    transition: 0.5s; }
+  .white__bg {
+    background-color: #fff; } }
 
 @media (min-width: 768px) {
   .mobil__navigation {

@@ -44,18 +44,26 @@ ul {
 @media (min-width: 768px) {
   .main__slogan__title {
     height: 50vw;
-    background-size: 105%, 25%;
-    background-position: -10px -50px, -50px 25px; }
+    background-size: 120%, 27%;
+    background-position: -20px -70px, -60px 25px; }
     .main__slogan__title__text {
       width: 60%;
       letter-spacing: 3px;
       font-size: 32px; } }
 
 @media (min-width: 992px) {
+  .main__slogan__title {
+    height: 45vw;
+    background-size: 100%, 25%;
+    background-position: 51px -100px, 5px 210px; }
   .main__slogan__text {
     width: 40%;
     font-size: 35px; } }
 
 @media (min-width: 1336px) {
+  .main__slogan__title__text {
+    font-size: 35px; } }
+
+@media (min-width: 1460px) {
   .main__slogan__title__text {
     font-size: 60px; } }
