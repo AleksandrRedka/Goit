@@ -86,6 +86,10 @@ ul {
         left: 0;
         right: 0; } }
 
+@media (max-width: 350px) {
+  .services__title__box__text {
+    padding-left: 10px; } }
+
 @media (min-width: 768px) {
   .section__services {
     width: 90%; }
