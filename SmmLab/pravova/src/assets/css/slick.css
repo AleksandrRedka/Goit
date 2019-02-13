@@ -43,11 +43,13 @@ ul {
   .slick {
     padding: 25px 78px;
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%;
+    margin-bottom: 80px; } }
 
 @media (min-width: 992px) {
   .slick {
-    padding: 35px 95px; }
+    padding: 35px 95px;
+    margin-bottom: 120px; }
   __title {
     font-style: 32px; }
     __title__text {
@@ -55,7 +57,9 @@ ul {
 
 @media (min-width: 1565px) {
   .slick__readmore {
-    display: none; } }
+    display: none; }
+  .slick {
+    margin-bottom: 180px; } }
 
 @media (min-width: 1890px) {
   .slick {

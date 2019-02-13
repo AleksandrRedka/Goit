@@ -74,13 +74,17 @@ ul {
 @media (min-width: 992px) {
   .back {
     padding: 180px 0px 30px 130px; }
-  .service__info__box__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%; }
-  .service__info__types {
-    width: 50%;
-    padding-right: 30px; }
-  .service__info__description {
-    width: 50%; } }
+  .service__info {
+    padding: 0px 130px; }
+    .service__info__box__text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      width: 100%; }
+    .service__info__types {
+      width: 40%;
+      padding-right: 50px; }
+    .service__info__description {
+      width: 40%; } }
