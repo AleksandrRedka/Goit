@@ -83,5 +83,4 @@ $(document).ready(function () {
     andLink.setAttribute('href',`${itemLink}`)
     item.appendChild(andLink)
   }
-
 })
