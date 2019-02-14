@@ -5,10 +5,14 @@
   box-sizing: border-box; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 ul {
   list-style-type: none; }
+
+button {
+  cursor: pointer; }
 
 @media (min-width: 320px) {
   .blog {

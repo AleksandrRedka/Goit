@@ -5,10 +5,14 @@
   box-sizing: border-box; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 ul {
   list-style-type: none; }
+
+button {
+  cursor: pointer; }
 
 @media (min-width: 320px) {
   .form__connect {
@@ -55,7 +59,9 @@ ul {
       color: #ffffff;
       font-family: "ProximaNova Regular", sans-serif;
       font-size: 18px;
-      outline: none; } }
+      outline: none; }
+      .form__connect__button:hover {
+        background-color: #D54D4D; } }
 
 @media (min-width: 768px) {
   .form__connect {
