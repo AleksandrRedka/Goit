@@ -12,13 +12,19 @@ $(document).ready(function () {
   })
 
   // Скрытый текст на странице О нас on mobil version
-
-  $('.about__us__text').readmore({
-    maxHeight: 580,
-    heightMargin: 50,
-    moreLink: '<a href="#" class="about__us__readmore">Читати...</a>',
-    lessLink: '<a href="#" class="about__us__readmore">Сховати</a>'
+  $(".about__us__readmore").click(function(e){
+    e.preventDefault()
+    $('.about__us__readmore').text()
+      if ($('.about__us__readmore').text()==="Читати..."){
+        $(this).html('Сховати')
+        $('.about__us__wrapper__text').css('height','auto')
+      }
+      else{
+        $(this).html('Читати...')
+        $('.about__us__wrapper__text').css('height','760px')
+      }
   })
+
 
   // открытие и закрытие Меню на мобильной версии
   $('.mobil__nav__tach').click(function () {
@@ -71,11 +77,8 @@ $(document).ready(function () {
   // Добавление знака "[...]" для текста статьи блога
 
   let linkArticle = document.querySelectorAll('.blog__article__text');
-  
-
   for(let item of linkArticle){
     let andLink = document.createElement('a');
-
     let itemLink=item.previousElementSibling.getAttribute('href');
     
     andLink.innerHTML='[…]'
@@ -83,4 +86,5 @@ $(document).ready(function () {
     andLink.setAttribute('href',`${itemLink}`)
     item.appendChild(andLink)
   }
+  
 })

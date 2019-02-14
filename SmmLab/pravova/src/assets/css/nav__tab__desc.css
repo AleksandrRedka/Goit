@@ -74,15 +74,15 @@ ul {
         width: 100%; }
   .nav__bg {
     position: absolute;
-    width: 80%;
-    top: -28vw;
-    right: -11%;
+    width: 85%;
+    top: -31vw;
+    right: -14%;
     z-index: 1;
     -webkit-transition: 1s;
     transition: 1s;
     pointer-events: none; }
     .nav__bg__scroll {
-      top: -36vw;
+      top: -37vw;
       -webkit-transform: rotate(-15deg);
       transform: rotate(-15deg); } }
 
@@ -95,13 +95,14 @@ ul {
       height: 40px;
       font-size: 35px; }
   .tablet__list {
-    height: 40px; }
+    height: 40px;
+    max-width: 450px; }
     .tablet__list__item {
       font-size: 16px; }
   .nav__bg {
     width: 60%;
     top: -20vw;
-    right: -4%; }
+    right: -2%; }
     .nav__bg__scroll {
       top: -24vw;
       -webkit-transform: rotate(-15deg);

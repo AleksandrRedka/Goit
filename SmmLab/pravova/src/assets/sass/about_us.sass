@@ -3,24 +3,32 @@
     .about__us
         &__title
             padding-top: 100px
+        &__wrapper__text
+            height: 760px
+            overflow: hidden
+            position: relative
+            margin-bottom: 80px
+        &__view
+            height: auto
         &__text
             padding: 0px 37px
-            max-height: 2200px;
             &>p
-                font-family: $miunBoldFf
+                font-family: $mainFf
                 font-size: 16px
                 font-weight: lighter
-                letter-spacing: 0.5px
                 margin-bottom: 20px
                 line-height: 20px
         &__readmore
+            position: absolute
+            bottom: 0%
             font-family: $mainFf
             font-size: 16px
             color: $blueColor
             letter-spacing: 0.5px
             text-decoration: underline
+            width: 100%;
+            background-color: #fff;
             padding: 0px 37px
-            margin-bottom: 80px
         &__subtitle
             font-family: $miunBoldFf
             font-size: 32px
@@ -93,8 +101,8 @@
             padding-top: 180px
         &__text
             padding: 0px 80px
-            &>
-                
+            &>p
+                font-family: $mainFf        
         &__readmore
             padding: 0px 80px
         &__subtitle
@@ -117,7 +125,9 @@
                 &__link
                     height: 58px
 
-
+@media (min-width: 872px)
+    .about__us__readmore
+        display: none
 @media (min-width:1210px)
     .about__us
         &__text
@@ -131,6 +141,7 @@
             padding-left: 130px
         &__text
             &>p
+                font-family: $miunBoldFf 
                 padding: 0px 130px
         &__readmore
             padding: 0px 130px

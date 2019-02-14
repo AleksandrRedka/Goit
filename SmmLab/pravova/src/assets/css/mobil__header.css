@@ -148,13 +148,14 @@ ul {
     background-color: #ffffff;
     top: -100%;
     -webkit-transition: 1s;
-    transition: 1s; }
+    transition: 1s;
+    z-index: 4; }
   .open {
     width: 100%;
     top: 0%;
     height: 90vh;
     position: fixed;
-    z-index: 3; }
+    z-index: 4; }
   .white__bg {
     background-color: #fff; } }
 
