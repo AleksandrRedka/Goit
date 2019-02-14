@@ -18,6 +18,8 @@
                 font-weight: lighter
                 margin-bottom: 20px
                 line-height: 20px
+                &:last-child
+                    margin-bottom: 0px
         &__readmore
             position: absolute
             bottom: 0%
@@ -126,12 +128,15 @@
                     height: 58px
 
 @media (min-width: 872px)
-    .about__us__readmore
-        display: none
+    
+    .about__us
+        &__wrapper__text
+            height: auto
+            margin-bottom: 120px
+        &__readmore
+            display: none
 @media (min-width:1210px)
     .about__us
-        &__text
-            margin-bottom: 80px
         &__readmore
             display: none
 
@@ -142,6 +147,7 @@
         &__text
             &>p
                 font-family: $miunBoldFf 
+                font-size: 18px
                 padding: 0px 130px
         &__readmore
             padding: 0px 130px

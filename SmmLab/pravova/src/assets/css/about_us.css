@@ -32,6 +32,8 @@ button {
       font-weight: lighter;
       margin-bottom: 20px;
       line-height: 20px; }
+      .about__us__text > p:last-child {
+        margin-bottom: 0px; }
   .about__us__readmore {
     position: absolute;
     bottom: 0%;
@@ -143,12 +145,13 @@ button {
           height: 58px; } }
 
 @media (min-width: 872px) {
+  .about__us__wrapper__text {
+    height: auto;
+    margin-bottom: 120px; }
   .about__us__readmore {
     display: none; } }
 
 @media (min-width: 1210px) {
-  .about__us__text {
-    margin-bottom: 80px; }
   .about__us__readmore {
     display: none; } }
 
@@ -157,6 +160,7 @@ button {
     padding-left: 130px; }
   .about__us__text > p {
     font-family: "ProximaNova Bold", sans-serif;
+    font-size: 18px;
     padding: 0px 130px; }
   .about__us__readmore {
     padding: 0px 130px; }
