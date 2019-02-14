@@ -24,12 +24,18 @@
                 position: relative
                 z-index: 3
                 text-align: center
+@media(min-width: 500px)
+    .main__slogan
+        background-color: #fff
+        &__title
+            background-size: 185%, 55%
+            background-position: -5vh -10vh, -19vh 0vh
 @media (min-width: 768px)
     .main__slogan
         &__title
             height: 50vw
-            background-size: 120%, 27%;
-            background-position: -20px -70px, -60px 25px;
+            background-size: 120%, 27%
+            background-position: -20px -70px, -60px 25px
             &__text
                 width: 60%
                 letter-spacing: 3px
@@ -38,8 +44,8 @@
     .main__slogan
         &__title
             height: 45vw
-            background-size: 100%, 25%;
-            background-position: 51px -100px, 5px 210px;
+            background-size: 100%, 25%
+            background-position: 51px -100px, 5px 210px
         &__text
             width: 40%
             font-size: 35px

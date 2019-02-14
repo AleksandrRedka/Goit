@@ -12,7 +12,7 @@ ul {
 
 @media (min-width: 320px) {
   .blog {
-    padding-top: 110px;
+    padding-top: 100px;
     margin-bottom: 80px; }
     .blog__article {
       padding: 0px 37px;
@@ -98,10 +98,15 @@ ul {
       height: 60px;
       background-color: #100C64; }
     .pagination__page {
+      margin: 0px 15px;
       width: 60px;
       height: 60px; }
   .page__active {
     border: 3px solid #100C64; } }
+
+@media (min-width: 992px) {
+  .blog {
+    padding-top: 180px; } }
 
 @media (min-width: 1366px) {
   .blog {
@@ -113,4 +118,6 @@ ul {
       .blog__article__text, .blog__article__link {
         font-size: 20px; }
   .pagination {
-    padding: 0px 200px; } }
+    padding: 0px 200px; }
+    .pagination__page {
+      margin: 0px 25px; } }

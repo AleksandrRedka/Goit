@@ -13,7 +13,7 @@ ul {
 @media (min-width: 320px) {
   .footer {
     background-color: #100C64;
-    padding: 10px 36px; }
+    padding: 10px 37px; }
     .footer__info {
       display: -webkit-box;
       display: -ms-flexbox;

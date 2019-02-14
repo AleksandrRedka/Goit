@@ -14,7 +14,7 @@ $(document).ready(function () {
   // Скрытый текст на странице О нас on mobil version
 
   $('.about__us__text').readmore({
-    maxHeight: 620,
+    maxHeight: 580,
     heightMargin: 50,
     moreLink: '<a href="#" class="about__us__readmore">Читати...</a>',
     lessLink: '<a href="#" class="about__us__readmore">Сховати</a>'

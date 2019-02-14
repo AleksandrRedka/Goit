@@ -51,6 +51,8 @@ ul {
       width: 38px;
       height: 38px;
       margin-right: 25px; }
+  .section__contacts__title {
+    padding-left: 22px; }
   .map {
     margin: 0px;
     padding: 0px;
@@ -65,4 +67,18 @@ ul {
     padding: 60px 0px;
     padding-left: 80px; }
   .map {
-    height: 100%; } }
+    height: 100%; }
+  .section__contacts__title {
+    padding-left: 65px; } }
+
+@media (min-width: 992px) {
+  .section__contacts__title {
+    padding-left: 65px; }
+  .contacts__info {
+    padding-left: 80px; } }
+
+@media (min-width: 1367px) {
+  .section__contacts__title {
+    padding-left: 115px; }
+  .contacts__info {
+    padding-left: 130px; } }

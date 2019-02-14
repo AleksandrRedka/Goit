@@ -41,6 +41,13 @@ ul {
         z-index: 3;
         text-align: center; } }
 
+@media (min-width: 500px) {
+  .main__slogan {
+    background-color: #fff; }
+    .main__slogan__title {
+      background-size: 185%, 55%;
+      background-position: -5vh -10vh, -19vh 0vh; } }
+
 @media (min-width: 768px) {
   .main__slogan__title {
     height: 50vw;

@@ -112,11 +112,11 @@ ul {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      padding: 0 10%;
-      padding-top: 31%;
+      padding: 0 37px;
+      padding-top: 100px;
       z-index: 3; }
       .mobil__nav__list__item {
-        margin-bottom: 17%; }
+        margin-bottom: 50px; }
       .mobil__nav__list__link {
         color: #292929;
         text-align: left;
@@ -135,25 +135,26 @@ ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0px 10%;
+    padding: 0px 37px;
     padding-bottom: 35px; }
     .mobil__nav__social__email {
       font-family: "ProximaNova Regular", sans-serif;
       font-size: 14px;
       color: #292929; }
   .mobil__menu {
-    opacity: 0;
-    width: 0;
-    height: 0; }
-  .open {
-    opacity: 1;
-    background-color: #fff;
+    position: fixed;
+    top: -100px;
     width: 100%;
+    background-color: #ffffff;
+    top: -100%;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .open {
+    width: 100%;
+    top: 0%;
     height: 90vh;
     position: fixed;
-    z-index: 3;
-    -webkit-transition: 0.5s;
-    transition: 0.5s; }
+    z-index: 3; }
   .white__bg {
     background-color: #fff; } }
 

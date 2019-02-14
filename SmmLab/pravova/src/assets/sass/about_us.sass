@@ -5,8 +5,9 @@
             padding-top: 100px
         &__text
             padding: 0px 37px
+            max-height: 2200px;
             &>p
-                font-family: $mainFf
+                font-family: $miunBoldFf
                 font-size: 16px
                 font-weight: lighter
                 letter-spacing: 0.5px
@@ -21,12 +22,10 @@
             padding: 0px 37px
             margin-bottom: 80px
         &__subtitle
-            font-family: $mainFf
+            font-family: $miunBoldFf
             font-size: 32px
-            font-weight: bold
             line-height: 40px
             color: $aboutUsFc
-            letter-spacing: 5px
             margin-bottom: 30px
             padding: 0px 37px
     .title__company
@@ -41,9 +40,7 @@
         margin-bottom: 80px
         &__pravova
             padding: 0px 37px
-            margin: 0px -15px 
         &__granat
-            margin: 0px -15px 
             padding: 0px 37px
         &__person
             line-height: 22px
@@ -93,7 +90,7 @@
     .about__us
         &__title
             padding: 0px 80px
-            padding-top: 110px
+            padding-top: 180px
         &__text
             padding: 0px 80px
             &>
@@ -130,27 +127,21 @@
 
 @media (min-width: 1366px)
     .about__us
-        
         &__title
-            
+            padding-left: 130px
         &__text
             &>p
                 padding: 0px 130px
         &__readmore
             padding: 0px 130px
         &__subtitle
+            margin-bottom: 50px
             font-size: 52px
-        &__subtitle
-            font-family: $mainFf
-            font-size: 32px
-            font-weight: bold
-            line-height: 40px
-            color: $aboutUsFc
-            letter-spacing: 5px
-            margin-bottom: 30px
 
     .our__teams
         padding: 0px 130px
+        &__pravova
+            padding-left: 115px
         &__person
             line-height: 28px
             &__position
@@ -159,6 +150,7 @@
         padding: 0px 130px
         &__list
             height: 490px
+            margin-left: 130px
             flex-wrap: wrap
             padding: 0
             &__item

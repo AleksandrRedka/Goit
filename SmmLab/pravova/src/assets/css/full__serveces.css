@@ -78,7 +78,7 @@ ul {
 
 @media (min-width: 992px) {
   .full__services__title__box {
-    padding-top: 150px; }
+    padding-top: 180px; }
   .full__services__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -103,7 +103,7 @@ ul {
 
 @media (min-width: 1366px) {
   .full__services__title__box {
-    padding-top: 150px; }
+    padding-top: 180px; }
   .full__services__title {
     padding: 0px 130px; }
   .full__services__list {
