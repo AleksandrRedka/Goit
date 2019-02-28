@@ -39,7 +39,6 @@ body{
 }
 .btn:hover{
     border: none;
-    font-size: 25px;
 }
 .active{
     background-color: red;
@@ -53,12 +52,18 @@ body{
     text-align: center;
     list-style-type: none
 }
+.active-lap{
+    background-color: rgb(29, 255, 59);
+    border: none;
+    box-shadow: 0px 0px 30px 10px rgb(29, 255, 59);
+    font-size: 25px;
+}
 .laps>li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #ffffff;
     transition: 1s;
 }
-.laps>li>p:hover{
-    font-size: 38px;
+.laps>li:hover{
+    font-size: 50px;
 }

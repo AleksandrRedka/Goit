@@ -102,6 +102,8 @@ class Stopwatch {
     let resultTime = document.createElement('li');
     resultTime.textContent = this.tablo.textContent;
     this.listLaps.append(resultTime)
+    this.btnLap.classList.add('active-lap')
+    setTimeout(()=>this.btnLap.classList.remove('active-lap'),500)
   }
 
 
